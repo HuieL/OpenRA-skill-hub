@@ -1,0 +1,17 @@
+{
+  "icon": "image",
+  "displayName": {
+    "en": "Craft Suite",
+    "zh-CN": "Craft Suite",
+    "ko": "Craft Suite",
+    "ja": "Craft Suite",
+    "es": "Craft Suite"
+  },
+  "shortDescription": {
+    "en": "Edit selected workcopies and verify Craft handoffs",
+    "zh-CN": "编辑选定工作副本并核对 Craft 交接",
+    "ko": "선택한 작업 사본 편집 및 Craft 인계 검증",
+    "ja": "選択した作業コピーの編集と Craft 引き継ぎの検証",
+    "es": "Edita copias de trabajo y verifica transferencias de Craft"
+  }
+}
