@@ -7,9 +7,9 @@
       "summary": "Portable Craft workflow prose for editing selected image, vector, slide or PDF workcopies and verifying Photo-to-Vector handoffs with explicit evidence boundaries. Drives the ArtCraft open tool family (github.com/storytold: PhotoCraft, VectorCraft, DeckCraft, PrintCraft and more). Original OpenRA work: no executable code, no application-internal recipes.",
       "delivery": "hub",
       "version": "a0cb46ef8c71654b07ee312cbe1ac0771476ff1d",
-      "revision": "31aa16f72474ae5a146a0ef6685a787e4fb84d20",
+      "revision": "62f5535a01ab1bdf94e5c690c5de03cb7c597b99",
       "entryPath": "entries/skills/openra.craft-suite/entry.json",
-      "entrySha256": "ae28cb079faac2e6bf3ceb0f509f7343f74c2e68483d3490b81f495da010a7e3"
+      "entrySha256": "2ed78af8d0e77be099bd1870414fcbdd8aadb0b9c80b89424c8c81553d9aa1e7"
     },
     {
       "id": "openra.diagram-design",

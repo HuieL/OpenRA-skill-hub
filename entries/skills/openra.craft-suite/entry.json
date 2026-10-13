@@ -23,7 +23,7 @@
   "source": {
     "repo": "HuieL/OpenAR-skill-hub",
     "path": "entries/skills/openra.craft-suite/skill",
-    "revision": "31aa16f72474ae5a146a0ef6685a787e4fb84d20"
+    "revision": "62f5535a01ab1bdf94e5c690c5de03cb7c597b99"
   },
   "version": "a0cb46ef8c71654b07ee312cbe1ac0771476ff1d",
   "license": "MIT",
@@ -38,8 +38,8 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "da0ed44fd9cdcd1b02f9332380032418bac5b8f91c090c6c44decbf32c07f2bd",
-      "bytes": 2285,
+      "sha256": "2d8579286711ae7aecc336c35fc1f909d9cbe0be3f65dd1bed753dbaf7b6de04",
+      "bytes": 2281,
       "executable": false
     },
     {
@@ -61,7 +61,7 @@
       "executable": false
     }
   ],
-  "totalBytes": 12050,
+  "totalBytes": 12046,
   "requires": [],
   "permissionsNote": "This skill carries no allowed-tools declarations and no executable code; it never grants host approvals. Craft tools it mentions are upstream applications with their own authorship and licences."
 }
