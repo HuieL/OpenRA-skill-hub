@@ -2,6 +2,16 @@
   "schemaVersion": 1,
   "entries": [
     {
+      "id": "openra.craft-suite",
+      "name": "Craft Suite",
+      "summary": "Portable Craft workflow prose for editing selected image, vector, slide or PDF workcopies and verifying Photo-to-Vector handoffs with explicit evidence boundaries. Drives the ArtCraft open tool family (github.com/storytold: PhotoCraft, VectorCraft, DeckCraft, PrintCraft and more). Original OpenRA work: no executable code, no application-internal recipes.",
+      "delivery": "hub",
+      "version": "a0cb46ef8c71654b07ee312cbe1ac0771476ff1d",
+      "revision": "b10666f0fd57046468bf8a5c193af107c7b96884",
+      "entryPath": "entries/skills/openra.craft-suite/entry.json",
+      "entrySha256": "6e2409fb12531801b99f0a29b35152ead7c46751018219f949d434b3d8072776"
+    },
+    {
       "id": "openra.diagram-design",
       "name": "Diagram Design",
       "summary": "Branded presentation diagrams (architecture, flowchart, sequence, ER, timeline, Sankey and 40+ more types) as HTML/SVG/PNG, with draw.io, Mermaid and Excalidraw import. OpenRA-adapted carry of the upstream skill; the recorded differences are in PROVENANCE.md inside the skill.",

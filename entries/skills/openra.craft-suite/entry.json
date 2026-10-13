@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "openra.craft-suite",
+  "kind": "skill",
+  "name": "Craft Suite",
+  "summary": "Portable Craft workflow prose for editing selected image, vector, slide or PDF workcopies and verifying Photo-to-Vector handoffs with explicit evidence boundaries. Drives the ArtCraft open tool family (github.com/storytold: PhotoCraft, VectorCraft, DeckCraft, PrintCraft and more). Original OpenRA work: no executable code, no application-internal recipes.",
+  "summaryI18n": {
+    "zh-CN": "可移植的 Craft 工作流文本：编辑选定的图像、矢量、幻灯或 PDF 工作副本，并以明确的证据边界核对 Photo→Vector 交接。驱动 ArtCraft 开源工具族（github.com/storytold：PhotoCraft、VectorCraft、DeckCraft、PrintCraft 等）。OpenRA 原创文本：不含可执行代码与应用内部配方。"
+  },
+  "authors": [
+    {
+      "name": "HuieL",
+      "github": "HuieL"
+    },
+    {
+      "name": "OpenRA contributors"
+    }
+  ],
+  "registrySubmitter": "HuieL",
+  "categories": [
+    "media"
+  ],
+  "source": {
+    "repo": "HuieL/OpenAR-skill-hub",
+    "path": "entries/skills/openra.craft-suite/skill",
+    "revision": "b10666f0fd57046468bf8a5c193af107c7b96884"
+  },
+  "version": "a0cb46ef8c71654b07ee312cbe1ac0771476ff1d",
+  "license": "MIT",
+  "licenseFile": "skill/references/workcopy-handoff.md",
+  "review": {
+    "status": "unreviewed",
+    "reviewedRevision": null,
+    "reviewer": null
+  },
+  "compat": {},
+  "delivery": "hub",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "2d8579286711ae7aecc336c35fc1f909d9cbe0be3f65dd1bed753dbaf7b6de04",
+      "bytes": 2281,
+      "executable": false
+    },
+    {
+      "path": "display.json",
+      "sha256": "8492d423adc04bb515f4b5ae1d57347ed055e1bbce8da75ec1e1022cd196db69",
+      "bytes": 549,
+      "executable": false
+    },
+    {
+      "path": "references/fixed-checks.md",
+      "sha256": "983bb2e9726f7ae415eefb06db634629a23ffd595d9ab683313d08d155ba5bd6",
+      "bytes": 3530,
+      "executable": false
+    },
+    {
+      "path": "references/workcopy-handoff.md",
+      "sha256": "ca062856e1de53709bd90d7c77aefdb51b1b61e2bf05c0456140e440bcc6ba5f",
+      "bytes": 5686,
+      "executable": false
+    }
+  ],
+  "totalBytes": 12046,
+  "requires": [],
+  "permissionsNote": "This skill carries no allowed-tools declarations and no executable code; it never grants host approvals. Craft tools it mentions are upstream applications with their own authorship and licences."
+}

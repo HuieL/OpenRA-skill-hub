@@ -1,5 +1,5 @@
 ---
-name: ora-craft-suite
+name: craft-suite
 description: "Use approved Craft tools to edit selected image, vector, slide or PDF workcopies and return traceable results. Use for PhotoCraft-to-VectorCraft handoffs, native editing and evidence-based verification."
 ---
 
