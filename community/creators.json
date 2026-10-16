@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "skillHub": "abe18ea4766419b8825245160a0af63571ecf482",
+  "skillHub": "36af8fd4e88d381da4c43c3521f624db1ebf5eef",
   "extensionHub": null,
   "creators": [
     {
@@ -19,6 +19,12 @@
       "github": "HuieL",
       "name": null,
       "credits": [
+        {
+          "entry": "skill:example.react-best-practices",
+          "roles": [
+            "submitter"
+          ]
+        },
         {
           "entry": "skill:hub.hallmark",
           "roles": [
@@ -144,6 +150,18 @@
       "credits": [
         {
           "entry": "skill:hub.hallmark",
+          "roles": [
+            "author"
+          ]
+        }
+      ]
+    },
+    {
+      "github": "vercel",
+      "name": "Vercel",
+      "credits": [
+        {
+          "entry": "skill:example.react-best-practices",
           "roles": [
             "author"
           ]

@@ -2,6 +2,16 @@
   "schemaVersion": 1,
   "entries": [
     {
+      "id": "example.react-best-practices",
+      "name": "Vercel React Best Practices",
+      "summary": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "delivery": "hub",
+      "version": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "entryPath": "entries/skills/example.react-best-practices/entry.json",
+      "entrySha256": "b5fac2f8ac27844592b789b7f6cbab6d0287957bae7208c196c803355ae8d059"
+    },
+    {
       "id": "hub.hallmark",
       "name": "Hallmark",
       "summary": "Anti-AI-slop design skill for greenfield pages: a default design flow plus three in-skill verbs the model performs when the user asks - audit (read the target, score it against the anti-pattern list, report only, never edit), redesign (re-visualize inside the existing implementation boundaries, preserving routes, copy intent and information architecture), and study (extract the design DNA from a screenshot or a URL the user supplies). These verbs are skill behaviors, not installed CLI commands. Inputs: a design brief, an existing page or component, or a screenshot/URL to study; output is HTML/CSS artifacts with locked design tokens, verified at 320/375/414/768 px. Carried verbatim from nutlope/hallmark at the pinned commit; only the skill directory (SKILL.md plus references) is carried, not the site/docs/demo.",
