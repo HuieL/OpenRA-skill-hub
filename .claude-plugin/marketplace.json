@@ -26,6 +26,22 @@
       ]
     },
     {
+      "name": "ponytail",
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail",
+        "sha": "09c434ab73ca43761c5d8b0c5d341926c2fba710"
+      },
+      "description": "4 skills from DietrichGebert/ponytail, pinned at 09c434ab73ca as listed on the OpenAR Skill Hub.",
+      "strict": false,
+      "skills": [
+        "./skills/ponytail",
+        "./skills/ponytail-audit",
+        "./skills/ponytail-debt",
+        "./skills/ponytail-review"
+      ]
+    },
+    {
       "name": "scientific-agent-skills",
       "source": {
         "source": "github",
