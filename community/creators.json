@@ -1,8 +1,38 @@
 {
   "schemaVersion": 1,
-  "skillHub": "86c480fa648a8e53577c296a750b9619ff7207dd",
+  "skillHub": "38c5eb7b1b3a63bfd6c06187701a57eed9434877",
   "extensionHub": null,
   "creators": [
+    {
+      "github": "DietrichGebert",
+      "name": "Dietrich Gebert",
+      "credits": [
+        {
+          "entry": "skill:ponytail.ponytail",
+          "roles": [
+            "author"
+          ]
+        },
+        {
+          "entry": "skill:ponytail.ponytail-audit",
+          "roles": [
+            "author"
+          ]
+        },
+        {
+          "entry": "skill:ponytail.ponytail-debt",
+          "roles": [
+            "author"
+          ]
+        },
+        {
+          "entry": "skill:ponytail.ponytail-review",
+          "roles": [
+            "author"
+          ]
+        }
+      ]
+    },
     {
       "github": "HuieL",
       "name": null,
@@ -1332,6 +1362,30 @@
         },
         {
           "entry": "skill:nature.writing",
+          "roles": [
+            "submitter"
+          ]
+        },
+        {
+          "entry": "skill:ponytail.ponytail",
+          "roles": [
+            "submitter"
+          ]
+        },
+        {
+          "entry": "skill:ponytail.ponytail-audit",
+          "roles": [
+            "submitter"
+          ]
+        },
+        {
+          "entry": "skill:ponytail.ponytail-debt",
+          "roles": [
+            "submitter"
+          ]
+        },
+        {
+          "entry": "skill:ponytail.ponytail-review",
           "roles": [
             "submitter"
           ]

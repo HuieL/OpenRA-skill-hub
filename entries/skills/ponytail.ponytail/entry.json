@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "ponytail.ponytail",
+  "kind": "skill",
+  "name": "Ponytail",
+  "summary": "Lazy senior dev mode: the smallest change that fully solves the task, and a reply a busy human understands in one read. Use on any coding task (writing, fixing, refactoring, reviewing, choosing dependencies) and when the user says \"ponytail\", \"be lazy\", \"simplest solution\", \"yagni\", or complains about over-engineering or bloat. Levels: lite, full (default), ultra.",
+  "authors": [
+    {
+      "name": "Dietrich Gebert",
+      "github": "DietrichGebert"
+    }
+  ],
+  "registrySubmitter": "HuieL",
+  "categories": [
+    "coding"
+  ],
+  "source": {
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail",
+    "revision": "09c434ab73ca43761c5d8b0c5d341926c2fba710"
+  },
+  "version": "5",
+  "license": "MIT",
+  "licenseFile": "LICENSE",
+  "review": {
+    "status": "unreviewed",
+    "reviewedRevision": null,
+    "reviewer": null
+  },
+  "compat": {},
+  "delivery": "hub",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "9badd22a32e19cb884e46dfa8d3aae82bb81dfa5484105b8b4f0262df823a509",
+      "bytes": 3496,
+      "executable": false
+    }
+  ],
+  "totalBytes": 3496,
+  "requires": [],
+  "permissionsNote": "allowed-tools or similar declarations inside SKILL.md are claims by the skill's author, not host approvals; OpenAR enforces its own permission gates."
+}

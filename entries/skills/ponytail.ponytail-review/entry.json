@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "ponytail.ponytail-review",
+  "kind": "skill",
+  "name": "Ponytail Review",
+  "summary": "Quality review of a change: is the logic right, is it safe, does it hold under real load, is risky code tested, is it fast enough, and is every line needed. Reads the connected code, not only the diff. Each finding is explained in plain English. Use for \"review this\", \"code review\", \"review the last commit\", \"review my PR\", \"is this over-engineered\", /ponytail-review.",
+  "authors": [
+    {
+      "name": "Dietrich Gebert",
+      "github": "DietrichGebert"
+    }
+  ],
+  "registrySubmitter": "HuieL",
+  "categories": [
+    "review"
+  ],
+  "source": {
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail-review",
+    "revision": "09c434ab73ca43761c5d8b0c5d341926c2fba710"
+  },
+  "version": "5",
+  "license": "MIT",
+  "licenseFile": "LICENSE",
+  "review": {
+    "status": "unreviewed",
+    "reviewedRevision": null,
+    "reviewer": null
+  },
+  "compat": {},
+  "delivery": "hub",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "33fe4ebe22a460924e5d4a261e223df22e409cc94ab76182bee9fb91a3ef022e",
+      "bytes": 5143,
+      "executable": false
+    }
+  ],
+  "totalBytes": 5143,
+  "requires": [],
+  "permissionsNote": "allowed-tools or similar declarations inside SKILL.md are claims by the skill's author, not host approvals; OpenAR enforces its own permission gates."
+}

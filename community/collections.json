@@ -66,6 +66,18 @@
         "skill:ythx-101.live-panel",
         "skill:hub.archify"
       ]
+    },
+    {
+      "id": "lean-code",
+      "title": "Lean Code",
+      "description": "Ponytail's lazy-senior-dev skills: write the smallest change that fully solves the task, review a diff or audit a whole repo for bugs, risk, load, missing tests and code that should not exist, and list the deliberate shortcuts left behind.",
+      "curators": ["HuieL"],
+      "entries": [
+        "skill:ponytail.ponytail",
+        "skill:ponytail.ponytail-review",
+        "skill:ponytail.ponytail-audit",
+        "skill:ponytail.ponytail-debt"
+      ]
     }
   ]
 }

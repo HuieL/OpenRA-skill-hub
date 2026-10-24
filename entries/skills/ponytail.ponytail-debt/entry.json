@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "ponytail.ponytail-debt",
+  "kind": "skill",
+  "name": "Ponytail Debt",
+  "summary": "List every `shortcut:` comment (and older `ponytail:` ones) as a debt ledger. One-shot report, changes nothing. Use for \"ponytail debt\", \"what did ponytail defer\", \"list the shortcuts\", /ponytail-debt.",
+  "authors": [
+    {
+      "name": "Dietrich Gebert",
+      "github": "DietrichGebert"
+    }
+  ],
+  "registrySubmitter": "HuieL",
+  "categories": [
+    "coding"
+  ],
+  "source": {
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail-debt",
+    "revision": "09c434ab73ca43761c5d8b0c5d341926c2fba710"
+  },
+  "version": "5",
+  "license": "MIT",
+  "licenseFile": "LICENSE",
+  "review": {
+    "status": "unreviewed",
+    "reviewedRevision": null,
+    "reviewer": null
+  },
+  "compat": {},
+  "delivery": "hub",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "b5ec2762f6ba8c4af9ea7173aa6c9f91b88655a25e43f9de0264f6ce8722b25f",
+      "bytes": 1769,
+      "executable": false
+    }
+  ],
+  "totalBytes": 1769,
+  "requires": [],
+  "permissionsNote": "allowed-tools or similar declarations inside SKILL.md are claims by the skill's author, not host approvals; OpenAR enforces its own permission gates."
+}

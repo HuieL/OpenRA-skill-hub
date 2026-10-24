@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "ponytail.ponytail-audit",
+  "kind": "skill",
+  "name": "Ponytail Audit",
+  "summary": "Quality audit of a whole repo: bugs, security holes, what breaks under real load, risky code without tests, slow paths, and what to delete, merge or split. Ranked, each finding explained in plain English. One-shot report, changes nothing. Use for \"audit this codebase\", \"review the whole repo\", \"find bloat\", \"what can I delete\", /ponytail-audit.",
+  "authors": [
+    {
+      "name": "Dietrich Gebert",
+      "github": "DietrichGebert"
+    }
+  ],
+  "registrySubmitter": "HuieL",
+  "categories": [
+    "review"
+  ],
+  "source": {
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail-audit",
+    "revision": "09c434ab73ca43761c5d8b0c5d341926c2fba710"
+  },
+  "version": "5",
+  "license": "MIT",
+  "licenseFile": "LICENSE",
+  "review": {
+    "status": "unreviewed",
+    "reviewedRevision": null,
+    "reviewer": null
+  },
+  "compat": {},
+  "delivery": "hub",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "2b3223a02c386d1263e1b08343cb8eb3a53e444cdafb1d79e26c8ec2a8fcad28",
+      "bytes": 5417,
+      "executable": false
+    }
+  ],
+  "totalBytes": 5417,
+  "requires": [],
+  "permissionsNote": "allowed-tools or similar declarations inside SKILL.md are claims by the skill's author, not host approvals; OpenAR enforces its own permission gates."
+}

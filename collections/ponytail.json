@@ -1,0 +1,58 @@
+{
+  "about": "Ponytail by Dietrich Gebert (MIT): a lazy-senior-dev mode for the smallest complete code change, plus diff review, whole-repo audit and a ledger of deliberate shortcuts. Listed as upstream entries pinned to one commit; only the skills/ folder is used, never the plugin hooks, statusline band or installers. Re-import with: python3 scripts/import-collection.py collections/ponytail.json",
+  "repo": "DietrichGebert/ponytail",
+  "revision": "09c434ab73ca43761c5d8b0c5d341926c2fba710",
+  "skillsPath": "skills",
+  "idPrefix": "ponytail",
+  "version": "5",
+  "license": "MIT",
+  "author": {
+    "name": "Dietrich Gebert",
+    "github": "DietrichGebert"
+  },
+  "submitter": "HuieL",
+  "tags": [
+    "ponytail",
+    "yagni",
+    "simplicity",
+    "minimal-diff"
+  ],
+  "exclude": {
+    "ponytail-help": "a reference card for the upstream plugin: its statusline band, plugin-marketplace auto-update and a ~/.config default-mode file are not shipped by this Hub entry (updates come through the Skill Hub); the levels it lists are in ponytail's own SKILL.md",
+    "ponytail-gain": "only prints the upstream benchmark scoreboard; it does nothing in a project"
+  },
+  "sections": {
+    "Coding": [
+      "coding",
+      "refactoring"
+    ],
+    "Review": [
+      "review",
+      "code-review"
+    ],
+    "Tech debt": [
+      "coding",
+      "tech-debt"
+    ]
+  },
+  "skills": {
+    "ponytail": [
+      "Coding"
+    ],
+    "ponytail-review": [
+      "Review"
+    ],
+    "ponytail-audit": [
+      "Review"
+    ],
+    "ponytail-debt": [
+      "Tech debt"
+    ]
+  },
+  "names": {
+    "ponytail": "Ponytail",
+    "ponytail-review": "Ponytail Review",
+    "ponytail-audit": "Ponytail Audit",
+    "ponytail-debt": "Ponytail Debt"
+  }
+}
