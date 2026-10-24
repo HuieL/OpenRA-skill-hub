@@ -1,0 +1,836 @@
+{
+  "schemaVersion": 1,
+  "id": "checklist-design.checklist-design",
+  "kind": "skill",
+  "name": "Checklist Design",
+  "summary": "Design review grounded in Checklist Design's 100+ published checklists. Two modes — audit works through a matching checklist item by item and reports what's present, partially present or missing and whether each gap matters; critique gives quick, honest peer-style feedback on hierarchy, layout, typography, colour, accessibility, interaction and polish. Use when someone shares a UI screenshot, mockup, live URL or local build and wants a design review, feedback, an audit, a completeness check, or to know what's missing — phrasings like \"does this look right,\" \"roast my landing page,\" \"is this accessible,\" \"review my dashboard,\" \"what's missing from this checkout,\" \"does this cover everything,\" or \"check this against the Login checklist.\" Covers websites, web apps, mobile apps, design system components and user flows.",
+  "authors": [
+    {
+      "name": "Checklist Design",
+      "github": "Checklist-Design"
+    }
+  ],
+  "registrySubmitter": "HuieL",
+  "categories": [
+    "design",
+    "review"
+  ],
+  "source": {
+    "repo": "Checklist-Design/skills",
+    "path": "skills/checklist-design",
+    "revision": "5de6e839dec4b0124c8301a7d9c43526ef065318"
+  },
+  "version": "3.2.4",
+  "license": "MIT",
+  "licenseFile": "LICENSE",
+  "review": {
+    "status": "unreviewed",
+    "reviewedRevision": null,
+    "reviewer": null
+  },
+  "compat": {},
+  "delivery": "hub",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "f3ee24316ab540b3c56e51a18ddcfdd595ab808a2a5213641398a70620d93313",
+      "bytes": 8753,
+      "executable": false
+    },
+    {
+      "path": "references/audit.md",
+      "sha256": "1bb61dc24e54d7fc51d456ac4aac9e06fbb971bfdef83624be78e8f2000b9900",
+      "bytes": 6732,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-accessibility.md",
+      "sha256": "cc8d04f6fbd116e0cfa2e6486d408529a8ac635afe5e07e6cc87101829252f43",
+      "bytes": 1876,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-accordion.md",
+      "sha256": "a5743a8f676eaaab2b279e9a44a2eddf72918b886efe5dda19f8e70b14645d2b",
+      "bytes": 1168,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-alert.md",
+      "sha256": "75dbe65f24dc9eef5b2b6ec3bcb5d9fe1effdf6471100374109123fdcaa2cfc4",
+      "bytes": 1047,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-avatar.md",
+      "sha256": "f9abd0476f489701901700a86ebbc33f5c93a70ae77697a752d9c1c509857055",
+      "bytes": 1233,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-badge.md",
+      "sha256": "4c9e575b62206b67952655782ff4ff2eae8839ffd5e51e3462c764a440b83a18",
+      "bytes": 746,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-banner.md",
+      "sha256": "326cdc1960b6afe88e6bbc535bfa597cf7ed083c43584c90dcc02df8d91b5ebf",
+      "bytes": 1634,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-breadcrumb.md",
+      "sha256": "ed4661fc033b380fc4662f69b6bffb89fdfbf5e8731a98acb3a643a8078927b5",
+      "bytes": 1035,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-button.md",
+      "sha256": "2fe35b4f51492563884bdbc3863ab1527f4ab975db00266dde27bf7c95005785",
+      "bytes": 1013,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-card.md",
+      "sha256": "f85a60f9586ba442b7b72cd3913d667451753b2a49dde91e365276cb0059ba6a",
+      "bytes": 972,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-carousel.md",
+      "sha256": "a425d226b5e4a900ea70708b25ec6ccfa3a54afee1fe46af9848eb44aaee4e2e",
+      "bytes": 1309,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-checkbox.md",
+      "sha256": "e59bd160bd41880de06203822c8b51df75a2f6db322c8f9989d474ce2d8aa878",
+      "bytes": 807,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-color-system.md",
+      "sha256": "351c1668ae99fab044130cae55a4d87221222e69f8205b9f6f617ac99933974b",
+      "bytes": 2663,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-date-picker.md",
+      "sha256": "d29108798c41d5186d451936f4866e950415652c6be83b680edd375cf2604a0c",
+      "bytes": 1230,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-drawer.md",
+      "sha256": "c7def6c899c4580e946ef072f48e702f6c29c7b1c9eb01b0c4157927d4b8b0a7",
+      "bytes": 1242,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-dropdown-menu.md",
+      "sha256": "9cf0651fb1f0f538d7c63240e0157857621b03d6facd6f9cd85438e727d54a7a",
+      "bytes": 1486,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-icon.md",
+      "sha256": "6006e1e87efc95798a27da4f7f9b765085bf44e73cfffdbbce72f61fcca8545c",
+      "bytes": 981,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-input-field.md",
+      "sha256": "b9967bbdd82d89ea332105426c31469c569028be1577419e32c889e5c0c371eb",
+      "bytes": 1257,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-loading.md",
+      "sha256": "504ad0bdede923d6aeb4e5b2d3dfadf489d8bda8207e42e49918e78e2b5763ea",
+      "bytes": 1214,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-modal.md",
+      "sha256": "3035986e939ff2f54b36d579ee509a9302eec9962ea1be70d466a2006f922540",
+      "bytes": 1338,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-radio.md",
+      "sha256": "ff51e4dc273db79191b3554f50aa8272d5dd9215ea82f8f3642a7f12fa2995b7",
+      "bytes": 1099,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-searchbar.md",
+      "sha256": "817b965efe6a8cea302763741dc0efe3a2b830f388ec21c7f3a209fae0ff4357",
+      "bytes": 1383,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-skeleton.md",
+      "sha256": "528f115d9b9c8185defa686abb9b0cf963cf988f4b66e9d01ef8b03bd383b8ed",
+      "bytes": 860,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-slider.md",
+      "sha256": "6860500e6d6ed57c889ae37334a0f18d10f820938fe43b1c306ac2e9bfe90c2e",
+      "bytes": 903,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-spacing-and-grid.md",
+      "sha256": "1ae5ebda5649ff0d140e46c14d0f6384c4030354916f8e5f4152ff3bdeb85260",
+      "bytes": 2265,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-stepper.md",
+      "sha256": "4758c7e691ecd02abef6461e02aff0567754d742e68db93986675cc040b8ba71",
+      "bytes": 1356,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-table.md",
+      "sha256": "4ad378b4f43e5d972ca292cf607fb7934d79f1b7ab9ad9a3e6adea2b86c244fc",
+      "bytes": 1042,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-tabs.md",
+      "sha256": "abc132fb559974be08dec51f52cb04b7426a6cd82abe1f6abbc040b776af6705",
+      "bytes": 845,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-toast.md",
+      "sha256": "81ec22de2b71bed62ace0d1f10fa3bf2c03d9f247b47fcde5b49eb8fb1ac2209",
+      "bytes": 1112,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-toggle.md",
+      "sha256": "9fcf3c72d315fe019549126a1aa1c8ebe1ca22771e1dcd4fc92675cc020aca76",
+      "bytes": 750,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-tokens.md",
+      "sha256": "c5341c8dcdd126568a3e88efdcb621de8e57eff6d2f9148a9dac5d209220ceb5",
+      "bytes": 1737,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-tooltip.md",
+      "sha256": "f0e3feb1f98394a2becbfe2e87e30126884eda8fe205161e5b5a1dfe74398338",
+      "bytes": 1182,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/design-system-typography.md",
+      "sha256": "8b03db1304b070c3b32540638056ea6e3b18f799855a6bf977285afba318bfc7",
+      "bytes": 2040,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/flows-adding-to-cart.md",
+      "sha256": "5ead11dda78c0d63e962be74c675a2d9d8dc71fd974ad75869bad5dc5c99a991",
+      "bytes": 1180,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/flows-canceling-subscription.md",
+      "sha256": "d3db9dbd595a81cb5ef30249ab6ece15072210f80c953b16928a5e13d05f4fc5",
+      "bytes": 1516,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/flows-contacting-support.md",
+      "sha256": "b6a5e3557c0b4a94fb7ec8f5fab2e42fbbb3ed87383a746aae8c600e23a8b792",
+      "bytes": 1632,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/flows-deleting-account.md",
+      "sha256": "8cba603031a7bb4db4485828f433eb448b5582ab70f5b92062882f9f4ac9fb76",
+      "bytes": 1495,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/flows-entering-promo-code.md",
+      "sha256": "e4dbc9f5136a3689fadbc6f73155fb340ee7cd1ae3ac955d622830a090f07916",
+      "bytes": 1362,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/flows-filtering-items.md",
+      "sha256": "005504270ccede5d7472052105f8d164dc648fef2a429530f1bd99cb5b28d5a7",
+      "bytes": 1997,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/flows-making-a-payment.md",
+      "sha256": "dbf7cae358927ee1f246151d2eb4359526f1ef218ad9dfcc68fd989127e7e6ab",
+      "bytes": 1968,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/flows-resetting-password.md",
+      "sha256": "814a945473cbbfe89ec5ec6e892507e9c78f8b3ca9ce493e306ea0e5044275da",
+      "bytes": 1703,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/flows-saving-changes.md",
+      "sha256": "02c000f62fe8e050572f3c72312f16035bb7bff05d4d0ab08170caad42cad488",
+      "bytes": 1846,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/flows-showing-input-error.md",
+      "sha256": "53d28ed09d624394444343c46fd797f81747c4f3c95b7e2a1602878f677eb3c5",
+      "bytes": 1242,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/flows-submitting-a-form.md",
+      "sha256": "5c3f712a03d4ab9fa67b4a63802c7b053b3752afd136451835b126798d8b85d0",
+      "bytes": 1222,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/flows-uploading-media.md",
+      "sha256": "201acba8e47c498bb563390763765f5354c3556b3f180de5114575a52b26defa",
+      "bytes": 2112,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/flows-verifying-account.md",
+      "sha256": "cf1e48721e7b9ac505fe1746f6ef4ca024de55508c9e8d77308632b17413d9c6",
+      "bytes": 1852,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-account.md",
+      "sha256": "c1d942e9258318aa06624594b0f1a7e6138200a36b588dd4ffa4c2ab4c7e48a9",
+      "bytes": 1130,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-action-sheet.md",
+      "sha256": "f2975a0674826c4a8c97d66e0a4349282a1a13b8e7eb0c0dd894267289e9bd53",
+      "bytes": 1710,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-billing.md",
+      "sha256": "d1620f70274bb3f081516e366d75a6bcbab2f793e322d7f4f0155e742efcd7db",
+      "bytes": 1507,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-camera-media-capture.md",
+      "sha256": "748bf52774177bc5904737b4c7cf3e8104e4700fadc9f67e0de4cbf7de22add7",
+      "bytes": 1165,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-cart.md",
+      "sha256": "efbb59c440d8d93d5d79135e3282edd408750387ce149f2792e5856274e7007e",
+      "bytes": 931,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-chat.md",
+      "sha256": "c117032199d0db7bc44625241c39bdf1aaa17186685f3d18f2851de5a8c8a80f",
+      "bytes": 1680,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-checkout.md",
+      "sha256": "b21fb38fe53f630653b7ed964522e2c350d55dd99da16fb9395f81bebfec4e99",
+      "bytes": 1714,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-dashboard.md",
+      "sha256": "503101a7f842db29cd65c155c6b47998b9d52f4ad8f3f981cc5fd5b82d766a0c",
+      "bytes": 1683,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-gesture-navigation.md",
+      "sha256": "34da4b21ff510befefda6c7c99ae3b775990d7da868b65e0ebd675ea3c2415f6",
+      "bytes": 1716,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-in-app-browser.md",
+      "sha256": "b2cb3f82238eb84329e105cde8c36a65f44f0499b82d415561df79e274039569",
+      "bytes": 1072,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-in-app-notifications.md",
+      "sha256": "ba3ff968cd756994df1c0e7538c41fd566f501e45713a325a0d4bf931b4d22b2",
+      "bytes": 1455,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-invite.md",
+      "sha256": "a40a29b73815b48a07aa42da662cbafadc26678d1283d27d4919b5ae64bdff7d",
+      "bytes": 1843,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-login.md",
+      "sha256": "0deeaf41da350f935e096e3e54ab479879dbeaee148c891c5a53a349d3026042",
+      "bytes": 1704,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-map-view.md",
+      "sha256": "48e753ca43acbb810d2eeb8e20419ea33baaafb20dec7b9177fffdeb1bb8b171",
+      "bytes": 1757,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-onboarding-checklist.md",
+      "sha256": "a72f8f50d2d2529cfdabfab28efc9b64d793b2a776e7a57f07f77468185596e7",
+      "bytes": 1372,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-onboarding.md",
+      "sha256": "b9b97f77e828ee36048b293f90d52b383278e49d376a23d0479700f61bc587a5",
+      "bytes": 1643,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-paywall.md",
+      "sha256": "7ca7074ebb760682d38272853ba330d4c40fdbfe9beb23e1dad5a613cff67629",
+      "bytes": 1264,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-profile.md",
+      "sha256": "066286dbcb8d1f198835f724750f0ff3d99ff2c49152dd40e64d0a45690ca6fa",
+      "bytes": 1213,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-push-notification-opt-in.md",
+      "sha256": "22ded56eaff6e68d191cbec87d39bea6363b6c75eea787fd750799434df32eb5",
+      "bytes": 1179,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-referral.md",
+      "sha256": "cc5d19870698b8c082b2eca5d1eda3ad6be5136fe9f5bdf03a75bb4cdf828d85",
+      "bytes": 1538,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-search.md",
+      "sha256": "f6d8562832b13ba8909cfebe33dc94c45364c407d9646f859754b03fd0806b1b",
+      "bytes": 1355,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-settings.md",
+      "sha256": "c0e5a7a1f093c0237b5258db2475dbea593928ed5babf1dba42d83110e661359",
+      "bytes": 1781,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-sign-up.md",
+      "sha256": "87daff1934c7cb367440cbcc08349b3e04cf51937efe57aacfac0910dcc032eb",
+      "bytes": 1436,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-splash-screen.md",
+      "sha256": "2ce07c3e5c11048c484cfa4137093d9df83143ffce8167d23e8e180773dfa3be",
+      "bytes": 1017,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/mobile-tab-bar-navigation.md",
+      "sha256": "dc27dfe2635288f76b7d9b871c9f8fde2a3108a07e572f013c217e0430d00193",
+      "bytes": 1167,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-2-factor-authentication.md",
+      "sha256": "2b3e379f34108bbaa543019b46105cc58ea63ba685b4fe2bdc84c98578dd84e9",
+      "bytes": 1436,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-account.md",
+      "sha256": "fac21da2a18b469bae1da3881b527d86be2436767b5c6a887734a573fa530db8",
+      "bytes": 1431,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-admin-panel.md",
+      "sha256": "34532c881bb4919d47d81c8cb731774ef3e707ea20e38e7f20617024c5b2e50b",
+      "bytes": 1139,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-analytics.md",
+      "sha256": "e4524ca465c8df1573a9a14466997f3bdb329500bfd1aaf87403e7735113c753",
+      "bytes": 1632,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-api-keys.md",
+      "sha256": "1b5f8f42214239b0c22e4d84a0face99f02f714011dce8c9fc3329d666bed955",
+      "bytes": 1583,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-audit-log.md",
+      "sha256": "3ebafc03fa9f64082274f3a345b86e073e1f592a506a9e06724867acf87779f4",
+      "bytes": 1365,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-billing.md",
+      "sha256": "2525f799c00825786073991e17ae93c32088f747b379a96d2722b0549d6a0ccf",
+      "bytes": 1399,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-chat.md",
+      "sha256": "c2d99da60d58862e99ef7fc5a7b3a2951410e0533acf31ccfc107f78c07dddf6",
+      "bytes": 1553,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-checkout.md",
+      "sha256": "233fdeb3929e10d79de9bc14b50a8c39f74d64dd6aeb65f0ca6c6bb3c2e70d12",
+      "bytes": 1607,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-comments.md",
+      "sha256": "6479eeee791d3dab010bd111b1efc50a145986b48ebf0d4bcc437f67ab37cfd7",
+      "bytes": 1322,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-dashboard.md",
+      "sha256": "e3b8f08e01b85d736bb909634af32fbcf72bc61eb480f6997ff0fc89762e9ee2",
+      "bytes": 1418,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-data-table.md",
+      "sha256": "db90df46915a850a5fee07e100bcf27460cf9b39f0c67fe424d6c4550274fbe2",
+      "bytes": 2271,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-empty-state.md",
+      "sha256": "70f5f751ccdcf8e4f1171a41a206413b98c18ff570c5803b877e263c9c349a46",
+      "bytes": 1425,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-feed.md",
+      "sha256": "05e1ab1e94b94e6a06da57f97c52a58b52b26326e001fb3bc0d7587c5069a3be",
+      "bytes": 1922,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-help-center.md",
+      "sha256": "fe10ca0c5c0a88751c5dfd030ba0b44ccbbe8a41ae4864aa27670882fcc78506",
+      "bytes": 1479,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-integrations.md",
+      "sha256": "fc821bc45a4e9742a85f2c7810354b5bd336d0012e082d7ed216067aa8c7aca3",
+      "bytes": 1538,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-kanban-board-view.md",
+      "sha256": "e7aa15a4e30c8abf6b0cda9fbac88aadb5ed5d9763ba03ef30fca2341ed1f038",
+      "bytes": 1659,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-login.md",
+      "sha256": "439033558803e61db6e241fccd267818d20189b312ad7e2653d15989e221489b",
+      "bytes": 1176,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-maintenance.md",
+      "sha256": "ff0d7ef4de26772b4ba11309f764dfaf50136f2f7e41a5c6ba8f5a31a600b5cf",
+      "bytes": 1262,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-multi-step-form.md",
+      "sha256": "141d96cbb4dcf2a6cb54fc9f8ba86d0116eb262b9778dd7e7e19cf9222ad3378",
+      "bytes": 1294,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-notification-settings.md",
+      "sha256": "5f941048b5cd45b2e7e2aa0d72428cfbd18531c9fd8aa13c07e0bda8b02e1d55",
+      "bytes": 1092,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-notifications.md",
+      "sha256": "153c67eab343b25e6ce360e0039414840a5e35f5375dea89644b031ea3adf2f0",
+      "bytes": 1088,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-onboarding.md",
+      "sha256": "42c2a23615692a4492cafc3dea8f49979563a3a49b1338a93d35de8a526db762",
+      "bytes": 1243,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-pricing.md",
+      "sha256": "e78d387de4b0eae70343b6329c2c692d88cbb78db290395a395db19b8f766594",
+      "bytes": 1051,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-public-profile.md",
+      "sha256": "0907f534cd8177855969a8ae183ac09bc2ee16be8b59597dddce4f0cd7a4a109",
+      "bytes": 1225,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-report-view.md",
+      "sha256": "c12266d641757eec3ae5c7a2a5740904c1911a8f8c2e0831a1b1409c3b043459",
+      "bytes": 1261,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-search-results.md",
+      "sha256": "2d60b575202dd4f20c55b86942bd2cd5b2cf6cd37d3573bc1dea5973d3ed1806",
+      "bytes": 1208,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-settings.md",
+      "sha256": "55e1535e925c69965fc8adceb3cb5780af6170ee2a3ffa4837a7235b7af0b259",
+      "bytes": 1475,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-single-item-detail.md",
+      "sha256": "40f98b3776fe2badc180a1c94e4619d85f314136fdc5ba4480c7ad16597b15ab",
+      "bytes": 1443,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-timeline-gantt-view.md",
+      "sha256": "a3027e79567572d22e5774a78042ed6e1b8b33d9151e9835e99961254f25ad02",
+      "bytes": 1652,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-user-management.md",
+      "sha256": "8b66ace6952a130f78eae4e505d54ef0f786b861f18f2b574020cba1627cf5dc",
+      "bytes": 1265,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/web-app-version-history.md",
+      "sha256": "bf0a447f439772c316aee9111277890bad1f169e8de780c9b72989b6a3674f34",
+      "bytes": 1281,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-404.md",
+      "sha256": "7f5d31d915e7bccffdca4758db744ef3488f39c718552101b75e066513986264",
+      "bytes": 813,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-about.md",
+      "sha256": "848c316555e25439cf006c5af33d7de678a2d4afb912a853dc315acc5220f396",
+      "bytes": 794,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-affiliate.md",
+      "sha256": "f7bd3310dbd9eb25d1dcbf40c31698494307700cbb83b58746d87a70ced05c8f",
+      "bytes": 1070,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-billing.md",
+      "sha256": "148ab0509ec101d2337f0e8006f64a61857e20c0f27905713f30698b61c7304e",
+      "bytes": 1063,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-blog-post.md",
+      "sha256": "af7c80d2c13a35a8422235336abf3ba17d045177f959aae74cb6f4e30123c177",
+      "bytes": 1701,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-blog.md",
+      "sha256": "1a612925abe2e9f9adc723cf8c8a71ae06f09d9421205c6f2a98c289bcf66752",
+      "bytes": 1839,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-careers.md",
+      "sha256": "ac163bc725ea41746a110aa6cac1f27b28ac6db7d3159527395d03331ab7cf32",
+      "bytes": 1449,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-cart.md",
+      "sha256": "c9e7b6bdf1f1868beba015a2c06070736300b6296e7c24899c126adc729c49d1",
+      "bytes": 1395,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-coming-soon.md",
+      "sha256": "b0031be9674bbef3ad02739424021a308d13b216689c16e823e3d67e1c323f38",
+      "bytes": 1171,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-compare-page.md",
+      "sha256": "84262587b69b843a054c4a329312e1f64d8503d27f9fb82ada8b227ca2048c95",
+      "bytes": 1362,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-contact-us.md",
+      "sha256": "f2f3d8b37b5e8068f7ade2589765c6d27f7f016754758670b002a9d8a34d06a6",
+      "bytes": 858,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-event-page.md",
+      "sha256": "fa7b60c1e1bdcf014e0be64f0270777b11d6dd155b9f7331de5681ceed58ba67",
+      "bytes": 1126,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-faq.md",
+      "sha256": "0ed660c748ca65913c1d779674978ff044819c3549f69e8abad0120c4ff3a741",
+      "bytes": 1105,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-features.md",
+      "sha256": "7bf4808445be0714d181064641bd6e585a5853a111198015dfacb1dc306ad6c0",
+      "bytes": 1219,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-footer.md",
+      "sha256": "1d5d0dec45e1a6208e39b6fbb82fd6d23f9739436de3d93309feba35a324e16e",
+      "bytes": 1816,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-landing-page.md",
+      "sha256": "8178809272ddaa83f026df06e97709cc0e48788bdd834f9380b52964b813c904",
+      "bytes": 1725,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-legal-privacy.md",
+      "sha256": "d36b2dacba20da4749868d7f2688e07dbf7228fb771329f43a1fbca871a89a83",
+      "bytes": 1489,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-login.md",
+      "sha256": "83582a50436685b7fee97c4874eaa79ee50a14c21f9be04af5fd3c41d9fdc29f",
+      "bytes": 1298,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-press-media.md",
+      "sha256": "2615bb6f63da963aadb5b062d376a50f0d877898edd53fcf2acd5dbba2f018db",
+      "bytes": 1332,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-pricing.md",
+      "sha256": "7ab794bd55b5959462c06f7fce29493289cf886965a6cb3ee152fb4b8ae42648",
+      "bytes": 1090,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-search.md",
+      "sha256": "72ffd121415699258ab973ad1ceeb31d77fb132b525fdfceaf9afbe61e8a28cf",
+      "bytes": 1526,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-security.md",
+      "sha256": "3ff4acc7d4333170dc0428dfd107e7f77cc264fee7503529bfb7f2b2756a095a",
+      "bytes": 1096,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-sign-up.md",
+      "sha256": "cc4943928572baa64998b8fd0414e2f6b55410140ad91ee45d1329b0a2beebcd",
+      "bytes": 1725,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-status.md",
+      "sha256": "cf5eb40c1be9a46bfa1ac2119b991b721eb60e575a1c0ee44190296ad3bbb8cd",
+      "bytes": 1779,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-team.md",
+      "sha256": "0691b9999b8e864ad7ba17e3f4c496579cc03fd94a561e977da71e9804b46748",
+      "bytes": 1008,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-testimonials.md",
+      "sha256": "45758996f57189874dc1a83a71eed6190fa6f4806266263d3e3227a75b71ce6f",
+      "bytes": 1214,
+      "executable": false
+    },
+    {
+      "path": "references/checklists/website-waitlist.md",
+      "sha256": "629c910768f16db8ea219b40be9430ed3d98d3f99c0206865ef96e6937109dcf",
+      "bytes": 1321,
+      "executable": false
+    },
+    {
+      "path": "references/critique.md",
+      "sha256": "d6648ba48d6ee707c255879cdf41d4bb4ac0964bbaa560652e82e0685cab2622",
+      "bytes": 1808,
+      "executable": false
+    },
+    {
+      "path": "references/index.md",
+      "sha256": "ba7f2787bf433426b353cf2ce72e406571201cf052eb7a05ff810f3684b3a7cb",
+      "bytes": 25932,
+      "executable": false
+    }
+  ],
+  "totalBytes": 221788,
+  "requires": [],
+  "permissionsNote": "allowed-tools or similar declarations inside SKILL.md are claims by the skill's author, not host approvals; OpenAR enforces its own permission gates. Pure guidance: SKILL.md, its audit and critique modes and 129 bundled checklists read locally; no scripts, no network fetches (it opens only a URL the user supplies, read-only, through the host's browser tool). The upstream plugin's prompt hook is not carried."
+}

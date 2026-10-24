@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "skillHub": "38c5eb7b1b3a63bfd6c06187701a57eed9434877",
+  "skillHub": "f94db7d8b13c709663ca38422e491dec4790f1aa",
   "extensionHub": null,
   "creators": [
+    {
+      "github": "Checklist-Design",
+      "name": "Checklist Design",
+      "credits": [
+        {
+          "entry": "skill:checklist-design.checklist-design",
+          "roles": [
+            "author"
+          ]
+        }
+      ]
+    },
     {
       "github": "DietrichGebert",
       "name": "Dietrich Gebert",
@@ -39,6 +51,12 @@
       "credits": [
         {
           "entry": "skill:anthropics.frontend-design",
+          "roles": [
+            "submitter"
+          ]
+        },
+        {
+          "entry": "skill:checklist-design.checklist-design",
           "roles": [
             "submitter"
           ]

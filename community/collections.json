@@ -15,7 +15,7 @@
     {
       "id": "web-and-design",
       "title": "Web & Design",
-      "description": "Skills for building and reviewing web output: anti-slop page design (Hallmark, Impeccable, taste-skill, Anthropic's frontend-design), UI guideline review, and a pinned design-reference selector.",
+      "description": "Skills for building and reviewing web output: anti-slop page design (Hallmark, Impeccable, taste-skill, Anthropic's frontend-design), UI guideline review, Checklist Design audits and critiques, and a pinned design-reference selector.",
       "curators": ["HuieL"],
       "entries": [
         "skill:hub.hallmark",
@@ -23,7 +23,8 @@
         "skill:hub.research-design-system",
         "skill:hub.impeccable",
         "skill:anthropics.frontend-design",
-        "skill:leonxlnx.taste-skill"
+        "skill:leonxlnx.taste-skill",
+        "skill:checklist-design.checklist-design"
       ]
     },
     {
