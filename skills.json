@@ -25,6 +25,31 @@
       "repo": "anthropics/skills"
     },
     {
+      "id": "checklist-design.checklist-design",
+      "name": "Checklist Design",
+      "summary": "Design review grounded in Checklist Design's 100+ published checklists. Two modes — audit works through a matching checklist item by item and reports what's present, partially present or missing and whether each gap matters; critique gives quick, honest peer-style feedback on hierarchy, layout, typography, colour, accessibility, interaction and polish. Use when someone shares a UI screenshot, mockup, live URL or local build and wants a design review, feedback, an audit, a completeness check, or to know what's missing — phrasings like \"does this look right,\" \"roast my landing page,\" \"is this accessible,\" \"review my dashboard,\" \"what's missing from this checkout,\" \"does this cover everything,\" or \"check this against the Login checklist.\" Covers websites, web apps, mobile apps, design system components and user flows.",
+      "delivery": "hub",
+      "version": "3.2.4",
+      "revision": "5de6e839dec4b0124c8301a7d9c43526ef065318",
+      "entryPath": "entries/skills/checklist-design.checklist-design/entry.json",
+      "entrySha256": "bfc0720c412adb81a52f0c1401800bb525a4de292640320dd38ed705d193c11b",
+      "icon": "review",
+      "tags": [
+        "ui-review",
+        "design-audit",
+        "accessibility",
+        "checklist",
+        "design",
+        "review"
+      ],
+      "categories": [
+        "design",
+        "review"
+      ],
+      "author": "Checklist Design",
+      "repo": "Checklist-Design/skills"
+    },
+    {
       "id": "hub.archify",
       "name": "Archify",
       "summary": "Validated architecture, workflow, sequence, data-flow, lifecycle, ERD, class, tree, timeline and waterfall diagrams as explorable standalone HTML with dark/light themes, motion and SVG/PNG/WebM export; also one-page explainers on request. OpenAR-adapted carry of tt-a1i/archify 3.2: the network update check and the offer to write a global agent rules file are removed, output goes to the artifacts directory, and pre-rendered example pages are left out; everything else is upstream.",

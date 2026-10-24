@@ -26,6 +26,19 @@
       ]
     },
     {
+      "name": "skills",
+      "source": {
+        "source": "github",
+        "repo": "Checklist-Design/skills",
+        "sha": "5de6e839dec4b0124c8301a7d9c43526ef065318"
+      },
+      "description": "1 skill from Checklist-Design/skills, pinned at 5de6e839dec4 as listed on the OpenAR Skill Hub.",
+      "strict": false,
+      "skills": [
+        "./skills/checklist-design"
+      ]
+    },
+    {
       "name": "ponytail",
       "source": {
         "source": "github",
@@ -393,7 +406,7 @@
       ]
     },
     {
-      "name": "skills",
+      "name": "anthropics-skills",
       "source": {
         "source": "github",
         "repo": "anthropics/skills",

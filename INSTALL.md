@@ -23,6 +23,7 @@ As a Claude Code plugin marketplace:
 | Entry | Version | License | Review | OpenAR | npx skills |
 | --- | --- | --- | --- | --- | --- |
 | `anthropics.frontend-design` | dbd4588f9e10 | Apache-2.0 | unreviewed | `ora hub install anthropics.frontend-design` | `npx skills add https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design` |
+| `checklist-design.checklist-design` | 3.2.4 | MIT | unreviewed | `ora hub install checklist-design.checklist-design` | `npx skills add https://github.com/Checklist-Design/skills/tree/5de6e839dec4b0124c8301a7d9c43526ef065318/skills/checklist-design` |
 | `hub.archify` | 3.2.0 | MIT | unreviewed | `ora hub install hub.archify` | `npx skills add https://github.com/HuieL/OpenAR-skill-hub/tree/77404898210a710edbbd89ea223347a90830ee6f/entries/skills/hub.archify/skill` |
 | `hub.craft-suite` | 1.0.0 | MIT | unreviewed | `ora hub install hub.craft-suite` | `npx skills add https://github.com/HuieL/OpenAR-skill-hub/tree/d3a7460fe0595e1c24ad53481508b157469641c2/entries/skills/hub.craft-suite/skill` |
 | `hub.hallmark` | 2.0.0 | MIT | unreviewed | `ora hub install hub.hallmark` | `npx skills add https://github.com/HuieL/OpenAR-skill-hub/tree/f6206395c87af1e6a14ab425df18ee758b454cbe/entries/skills/hub.hallmark/skill` |
