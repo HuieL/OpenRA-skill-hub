@@ -50,6 +50,29 @@
       "repo": "Checklist-Design/skills"
     },
     {
+      "id": "hub.anatomy",
+      "name": "Anatomy",
+      "summary": "Crafted, interactive isometric figures that explain a technical idea by building it as a real working object — a test rig, a dial gauge, a plotter, a lock — in SVG with many small precise solid parts, four-tone shading, correct painter's order and calm motion, plus an optional WebGL layer (fire, exhaust, water, light) or 3D in the same perspective. Output is a standalone HTML page (framework-free or React/Next.js), printable as an A4 PDF poster, and publishable to the Anatomy community gallery as an explicit pull-request step. Use for explanatory figures and interactive explainers in docs, blogs and landing pages; not a general-purpose diagram or charting tool. Runs on Node.js >= 20.10; checks need Chrome/Chromium. Source-pointing carry of wheresryan22/anatomy at the pinned commit; generated demo artifacts under examples/ (built HTML pages, PDF posters) are left out per the hub's demo-media rule and rebuild from each example's build.mjs. Licensed MIT.",
+      "delivery": "hub",
+      "version": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80",
+      "revision": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80",
+      "entryPath": "entries/skills/hub.anatomy/entry.json",
+      "entrySha256": "8612479da371cfddc044dc454821e818ea32192c158104e58d3394f9a85651f9",
+      "icon": "design",
+      "tags": [
+        "design",
+        "visualization",
+        "communication"
+      ],
+      "categories": [
+        "design",
+        "visualization",
+        "communication"
+      ],
+      "author": "Ryan",
+      "repo": "wheresryan22/anatomy"
+    },
+    {
       "id": "hub.archify",
       "name": "Archify",
       "summary": "Validated architecture, workflow, sequence, data-flow, lifecycle, ERD, class, tree, timeline and waterfall diagrams as explorable standalone HTML with dark/light themes, motion and SVG/PNG/WebM export; also one-page explainers on request. OpenAR-adapted carry of tt-a1i/archify 3.2: the network update check and the offer to write a global agent rules file are removed, output goes to the artifacts directory, and pre-rendered example pages are left out; everything else is upstream.",

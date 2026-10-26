@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "skillHub": "f94db7d8b13c709663ca38422e491dec4790f1aa",
+  "skillHub": "eea5e0afdf9b7dc81debcdae6c4cc1184c9c6910",
   "extensionHub": null,
   "creators": [
     {
@@ -57,6 +57,12 @@
         },
         {
           "entry": "skill:checklist-design.checklist-design",
+          "roles": [
+            "submitter"
+          ]
+        },
+        {
+          "entry": "skill:hub.anatomy",
           "roles": [
             "submitter"
           ]
@@ -2826,6 +2832,18 @@
         },
         {
           "entry": "skill:hub.writing-guidelines",
+          "roles": [
+            "author"
+          ]
+        }
+      ]
+    },
+    {
+      "github": "wheresryan22",
+      "name": "Ryan",
+      "credits": [
+        {
+          "entry": "skill:hub.anatomy",
           "roles": [
             "author"
           ]
