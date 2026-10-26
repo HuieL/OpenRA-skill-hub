@@ -62,6 +62,12 @@
           ]
         },
         {
+          "entry": "skill:hub.anatomy",
+          "roles": [
+            "submitter"
+          ]
+        },
+        {
           "entry": "skill:hub.archify",
           "roles": [
             "adapter",
@@ -2844,6 +2850,18 @@
         },
         {
           "entry": "skill:hub.writing-guidelines",
+          "roles": [
+            "author"
+          ]
+        }
+      ]
+    },
+    {
+      "github": "wheresryan22",
+      "name": "Ryan",
+      "credits": [
+        {
+          "entry": "skill:hub.anatomy",
           "roles": [
             "author"
           ]

@@ -24,6 +24,7 @@ As a Claude Code plugin marketplace:
 | --- | --- | --- | --- | --- | --- |
 | `anthropics.frontend-design` | dbd4588f9e10 | Apache-2.0 | unreviewed | `ora hub install anthropics.frontend-design` | `npx skills add https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design` |
 | `checklist-design.checklist-design` | 3.2.4 | MIT | unreviewed | `ora hub install checklist-design.checklist-design` | `npx skills add https://github.com/Checklist-Design/skills/tree/5de6e839dec4b0124c8301a7d9c43526ef065318/skills/checklist-design` |
+| `hub.anatomy` | 1482e8469b0a | MIT | unreviewed | `ora hub install hub.anatomy` | `npx skills add https://github.com/wheresryan22/anatomy/tree/1482e8469b0a9e0d8cc18ea2740a01423d29ae80/.` |
 | `hub.archify` | 3.2.0 | MIT | unreviewed | `ora hub install hub.archify` | `npx skills add https://github.com/HuieL/OpenAR-skill-hub/tree/77404898210a710edbbd89ea223347a90830ee6f/entries/skills/hub.archify/skill` |
 | `hub.craft-suite` | 1.0.0 | MIT | unreviewed | `ora hub install hub.craft-suite` | `npx skills add https://github.com/HuieL/OpenAR-skill-hub/tree/d3a7460fe0595e1c24ad53481508b157469641c2/entries/skills/hub.craft-suite/skill` |
 | `hub.gzh-design` | 750a50dffdc4 | AGPL-3.0-or-later | unreviewed | `ora hub install hub.gzh-design` | `npx skills add https://github.com/isjiamu/gzh-design-skill/tree/750a50dffdc4abb5e853b98136dad13a57e64ce3/.` |

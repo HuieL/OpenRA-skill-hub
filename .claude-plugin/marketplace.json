@@ -577,6 +577,19 @@
       ]
     },
     {
+      "name": "anatomy",
+      "source": {
+        "source": "github",
+        "repo": "wheresryan22/anatomy",
+        "sha": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80"
+      },
+      "description": "1 skill from wheresryan22/anatomy, pinned at 1482e8469b0a as listed on the OpenAR Skill Hub.",
+      "strict": false,
+      "skills": [
+        "./."
+      ]
+    },
+    {
       "name": "live-panel-skill",
       "source": {
         "source": "github",
