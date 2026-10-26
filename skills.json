@@ -102,6 +102,27 @@
       "repo": "HuieL/OpenAR-skill-hub"
     },
     {
+      "id": "hub.gzh-design",
+      "name": "GZH Design",
+      "summary": "WeChat Official Account article layout engine: turns Markdown (or docx/PDF/plain text, normalized first) into polished HTML with fully inlined styles that survive pasting into the WeChat editor. Six curated themes (Moyu Green, Red & White, Graphite Minimal, Zen Whitespace, Moyu Ticket, Olive Journal), each a self-contained component library behind a single-source theme index, plus a theme generator for custom styles; auto section numbers, keyword underline marks, intro cards, TOC, code blocks, images/GIFs and author signature. Two deterministic local quality gates (component lint, WeChat platform limits) and a preview wrap before paste. Use when laying out WeChat articles; not for ordinary web pages, landing pages or slides. Source-pointing carry of isjiamu/gzh-design-skill at the pinned commit: only the skill surface (SKILL.md, references, scripts, assets), not archive/, docs/ or repo meta. Licensed AGPL-3.0-or-later (copyleft applies to the skill's source).",
+      "delivery": "hub",
+      "version": "750a50dffdc4abb5e853b98136dad13a57e64ce3",
+      "revision": "750a50dffdc4abb5e853b98136dad13a57e64ce3",
+      "entryPath": "entries/skills/hub.gzh-design/entry.json",
+      "entrySha256": "48d6c97d2b4f132a912efccc873d529663f570b1665a4f76936b04688cb6cad8",
+      "icon": "design",
+      "tags": [
+        "design",
+        "writing"
+      ],
+      "categories": [
+        "design",
+        "writing"
+      ],
+      "author": "Jiamu",
+      "repo": "isjiamu/gzh-design-skill"
+    },
+    {
       "id": "hub.hallmark",
       "name": "Hallmark",
       "summary": "Design skill for websites and new pages that look designed, not generated: a non-waivable floor against model defaults, a dealt theme so consecutive builds do not converge, one idea per screen, a sloplint sweep at 320-1920 px, and audit/redesign verbs when Hallmark is named. OpenAR-adapted carry of nutlope/hallmark 2.0.0: the home-directory installer and the ~/.claude/settings.json edit-time hook are not carried; image generation is opt-in with the user's own Together AI key. Everything else is upstream.",

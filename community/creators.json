@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "skillHub": "f94db7d8b13c709663ca38422e491dec4790f1aa",
+  "skillHub": "eea5e0afdf9b7dc81debcdae6c4cc1184c9c6910",
   "extensionHub": null,
   "creators": [
     {
@@ -72,6 +72,12 @@
           "entry": "skill:hub.craft-suite",
           "roles": [
             "author",
+            "submitter"
+          ]
+        },
+        {
+          "entry": "skill:hub.gzh-design",
+          "roles": [
             "submitter"
           ]
         },
@@ -2520,6 +2526,18 @@
         },
         {
           "entry": "skill:hub.officecli-data-dashboard",
+          "roles": [
+            "author"
+          ]
+        }
+      ]
+    },
+    {
+      "github": "isjiamu",
+      "name": "Jiamu",
+      "credits": [
+        {
+          "entry": "skill:hub.gzh-design",
           "roles": [
             "author"
           ]

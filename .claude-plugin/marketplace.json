@@ -419,6 +419,19 @@
       ]
     },
     {
+      "name": "gzh-design-skill",
+      "source": {
+        "source": "github",
+        "repo": "isjiamu/gzh-design-skill",
+        "sha": "750a50dffdc4abb5e853b98136dad13a57e64ce3"
+      },
+      "description": "1 skill from isjiamu/gzh-design-skill, pinned at 750a50dffdc4 as listed on the OpenAR Skill Hub.",
+      "strict": false,
+      "skills": [
+        "./."
+      ]
+    },
+    {
       "name": "leanprover-skills",
       "source": {
         "source": "github",
