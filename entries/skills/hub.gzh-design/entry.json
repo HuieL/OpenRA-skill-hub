@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "hub.gzh-design",
+  "kind": "skill",
+  "name": "GZH Design",
+  "summary": "WeChat Official Account article layout engine: turns Markdown (or docx/PDF/plain text, normalized first) into polished HTML with fully inlined styles that survive pasting into the WeChat editor. Six curated themes (Moyu Green, Red & White, Graphite Minimal, Zen Whitespace, Moyu Ticket, Olive Journal), each a self-contained component library behind a single-source theme index, plus a theme generator for custom styles; auto section numbers, keyword underline marks, intro cards, TOC, code blocks, images/GIFs and author signature. Two deterministic local quality gates (component lint, WeChat platform limits) and a preview wrap before paste. Use when laying out WeChat articles; not for ordinary web pages, landing pages or slides. Source-pointing carry of isjiamu/gzh-design-skill at the pinned commit: only the skill surface (SKILL.md, references, scripts, assets), not archive/, docs/ or repo meta. Licensed AGPL-3.0-or-later (copyleft applies to the skill's source).",
+  "summaryI18n": {
+    "zh-CN": "微信公众号文章排版引擎：把 Markdown（或先归一化的 docx/PDF/纯文本）转成可直接粘进公众号编辑器、粘贴后样式不丢失的内联样式 HTML。六套精选主题（摸鱼绿、红白色系、石墨极简风、留白禅意风、摸鱼票据风、橄榄手记）各自为完整组件库，由单一来源主题索引登记，另附按描述/参考图生成自定义主题的主题生成器；支持自动章节编号、关键词下划线标记、引言卡片、目录导航、代码块、图片/GIF 与作者签名；由仅标准库的本地 Python 脚本执行组件审查与公众号平台限制双关卡校验，附带粘贴前预览包装。适用于公众号文章排版；不用于普通网页、落地页或 PPT。自 isjiamu/gzh-design-skill 钉住 commit 来源指向携带，仅携带技能面（SKILL.md、references、scripts、assets），不含 archive/、docs/ 与仓库元文件。许可证 AGPL-3.0-or-later：强著左条款作用于本技能源码。"
+  },
+  "authors": [
+    {
+      "name": "Jiamu",
+      "github": "isjiamu"
+    }
+  ],
+  "registrySubmitter": "HuieL",
+  "categories": [
+    "design",
+    "writing"
+  ],
+  "source": {
+    "repo": "isjiamu/gzh-design-skill",
+    "path": ".",
+    "revision": "750a50dffdc4abb5e853b98136dad13a57e64ce3"
+  },
+  "version": "750a50dffdc4abb5e853b98136dad13a57e64ce3",
+  "license": "AGPL-3.0-or-later",
+  "licenseFile": "LICENSE",
+  "review": {
+    "status": "unreviewed",
+    "reviewedRevision": null,
+    "reviewer": null
+  },
+  "compat": {},
+  "delivery": "hub",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "f5bfc70b507bb5707244780ab98ba635866083ecfacf19c84a8c1f1df73df31c",
+      "bytes": 19129,
+      "executable": false
+    },
+    {
+      "path": "assets/preview-template.html",
+      "sha256": "79945c82a83fc169464de3b446309082a77ee3d15dae13c43297c5ebb95587a0",
+      "bytes": 3544,
+      "executable": false
+    },
+    {
+      "path": "assets/sample-article.md",
+      "sha256": "773c642ca26fba3b7e40afaeee561c514d49caee7e6bc086e88a586e329128d3",
+      "bytes": 2815,
+      "executable": false
+    },
+    {
+      "path": "assets/theme-previews/theme-mono-blue-editorial.html",
+      "sha256": "a5a121f5fe04265a1dc0cf7e9ba563f7f080c7e6359252e32ccb341e79e123b2",
+      "bytes": 46103,
+      "executable": false
+    },
+    {
+      "path": "references/common-components.md",
+      "sha256": "6daf8125af6d11ad955df4090f58f6f0c2518b8d745c28093429ab1b8d5b322c",
+      "bytes": 11620,
+      "executable": false
+    },
+    {
+      "path": "references/eval-cases.md",
+      "sha256": "626067b3e746fa6b97073ffc7ea7143ccfaa0ec620ecb9fc3894b05830151337",
+      "bytes": 5690,
+      "executable": false
+    },
+    {
+      "path": "references/format-normalize.md",
+      "sha256": "b9ac42e90970155c4654ee765ad6ac483562c34e80cf962be117e8c6ab7bf421",
+      "bytes": 4497,
+      "executable": false
+    },
+    {
+      "path": "references/theme-generator.md",
+      "sha256": "a42f0d9e5aab15346ce7c12d160c6fd903d8ac1ff2f501a01b86b10b5befb39a",
+      "bytes": 25935,
+      "executable": false
+    },
+    {
+      "path": "references/theme-graphite-minimal.md",
+      "sha256": "eb0a23a5fc0d1b24287a8262abc8ccb42da8ab7eae0c872183912dc6cb84f75f",
+      "bytes": 33559,
+      "executable": false
+    },
+    {
+      "path": "references/theme-index.md",
+      "sha256": "b865d0abd50c346d11b643f749ef2b4292d907913a6c7ad899b74c59e2e2c0e8",
+      "bytes": 3218,
+      "executable": false
+    },
+    {
+      "path": "references/theme-moyu-green.md",
+      "sha256": "c049a510b11570c91831d1b6f5727be15ab3ed6efa035f0f2c395874991deeaa",
+      "bytes": 43938,
+      "executable": false
+    },
+    {
+      "path": "references/theme-moyu-ticket.md",
+      "sha256": "97c97ad067e7ea638331ea862e5adf890f079e9e00ddbf2c1996db049165f587",
+      "bytes": 24002,
+      "executable": false
+    },
+    {
+      "path": "references/theme-olive-journal.md",
+      "sha256": "aa7effb32d595b0768a05734c541f1059703860cec00ac699fa4d2bde43b0ee3",
+      "bytes": 56689,
+      "executable": false
+    },
+    {
+      "path": "references/theme-red-white.md",
+      "sha256": "415ccd889f0a4a7bfd915b9ad74608c610b594fce3caa23830f980973c0150dd",
+      "bytes": 29084,
+      "executable": false
+    },
+    {
+      "path": "references/theme-zen-whitespace.md",
+      "sha256": "017b4457fe646af1679f827d0867d81456251d68bf1e0b50eac16f9d1a146ac4",
+      "bytes": 23823,
+      "executable": false
+    },
+    {
+      "path": "scripts/component_lint.py",
+      "sha256": "75acb18c8620b61d452d629c09d939c9bdca4aee24e05f4f291e06998bc4fdd8",
+      "bytes": 3864,
+      "executable": true
+    },
+    {
+      "path": "scripts/extract_docx.py",
+      "sha256": "be4cfd96d95c728c75bf49ce54757f2eeef943831cc287e7bf6d5a0ec23b31c3",
+      "bytes": 6335,
+      "executable": false
+    },
+    {
+      "path": "scripts/test_validate_gzh_html.py",
+      "sha256": "c74d269cf6ac9d51e9e3cdac22a4caff82c9bb4869770d0a60b14e9af9519602",
+      "bytes": 4952,
+      "executable": false
+    },
+    {
+      "path": "scripts/validate_gzh_html.py",
+      "sha256": "75c75aa4d3f5ac2e23a8144079967f62b2f4136caa0ac918237900ccf66ac837",
+      "bytes": 8494,
+      "executable": true
+    },
+    {
+      "path": "scripts/wrap_preview.py",
+      "sha256": "c7285a691ced3a914bd09812f31d012c55d244cad52373f2fdcf357dc642cc8b",
+      "bytes": 1775,
+      "executable": true
+    }
+  ],
+  "totalBytes": 359066,
+  "requires": [],
+  "permissionsNote": "The upstream SKILL.md declares no allowed-tools; any tool use is the host's decision. Its workflow runs four local Python scripts (extract_docx.py, validate_gzh_html.py, component_lint.py, wrap_preview.py) which are stdlib-only and make no network calls; the entry carries them pinned by hash, and running them is exactly the kind of action the host approves per-session. The license is AGPL-3.0-or-later: copyleft terms apply to this skill's source; note for the review gate that AGPL is OSI-approved but strong copyleft."
+}
