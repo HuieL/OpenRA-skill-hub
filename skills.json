@@ -213,6 +213,27 @@
       "repo": "HuieL/OpenAR-skill-hub"
     },
     {
+      "id": "hub.kami",
+      "name": "Kami",
+      "summary": "Kami (紙) delivers documents: eight built-in templates — resume, one-pager, letter, portfolio, long-doc, slides (PDF and editable PPTX), equity report, changelog — plus a product landing page, with serif CJK/Latin typography, warm paper backgrounds and a single ink-blue accent, eighteen diagram types and generated data charts. The skill locks a contract first (language, template, formats, length), fills templates from a strict content.json intermediate representation, then renders and gates with one command (--deliver: placeholder, strict-MathJax, density, orphan and actual-CJK-font checks) until READY. Use for 做 PDF / 排版 / 简历 / 一页纸 / PPT / slides or a Kami landing page; not for auditing or restyling an existing site, dark or cyberpunk aesthetics, or dynamic web app UI. Rendering needs Python WeasyPrint (pypdf/PyMuPDF) and Node.js 20 or 22+ for strict math; CJK serif fonts download on demand. Source-pointing carry of tw93/kami at the pinned commit. Licensed MIT.",
+      "delivery": "hub",
+      "version": "1.18.0",
+      "revision": "305e2111a7f52fb704f0fc4007e1e8751900fecf",
+      "entryPath": "entries/skills/hub.kami/entry.json",
+      "entrySha256": "e5b14b9096c2ce1af719ecb5a404b8196bb4df9fdf1e818783241a089bcb3f08",
+      "icon": "design",
+      "tags": [
+        "design",
+        "writing"
+      ],
+      "categories": [
+        "design",
+        "writing"
+      ],
+      "author": "Tw93",
+      "repo": "tw93/kami"
+    },
+    {
       "id": "hub.officecli-academic-paper",
       "name": "OfficeCLI Academic Paper",
       "summary": "Academic-style .docx output: journal/conference/thesis chapters with APA, Chicago, IEEE or MLA citation style, numbered equations, cross-references, footnotes and bibliography. OpenAR-adapted carry of the iOfficeAI/AionCore skill, published in lockstep with the compiled curated body at the same version (same version, same bytes): the upstream install commands and the manual-releases fallback are replaced with the pinned, checksum-verified host install path (an ora cli-adapter changeset the user approves and stages), the verify sentence points at list-adapters/run-cli-adapter, and an Apache-2.0 4(b) provenance notice is appended; everything else is upstream text.",
