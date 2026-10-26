@@ -44,6 +44,12 @@
 - 宿主侧（OpenRA）：社区数据全新安装自动同步一次；Skill Hub 刷新拉最新目录；Home 有 skills.sh 排行榜（只读、6 h 缓存、上榜≠审核，安装走 install-from）；询问 agent 的会话绑定 skill、放隐藏内置项目（`agent-x/skill-hub-chat-home`，待合）；Hub 查询键入 workspace scope（`agent-x/hub-query-scope`，待合）。
 - 仍待：PSL 验收走查（人工腿，脚本 `docs/acceptance/hub/x-psl-e2e.sh` 在 OpenRA）；`hub.scientific-figure-making`（CC BY-NC 4.0）许可裁决仍待用户。
 
+## 1d. 当前事实（2026-10-26）
+
+- main = `eea5e0a`，**226 条**（origin 已核实，无 anatomy 重名）。`hub.anatomy` 已上架（用户指派）：`agent-x/anatomy@5dbbdb6` 待 Review —— wheresryan22/anatomy 钉 `1482e846`，MIT，许可 148 文件共 2,137,030 字节；`examples/*.html`、`examples/*.pdf`（生成演示产物 ~37 MiB）按 CONTRIBUTING 演示产物规则 `--exclude` 排除并在 permissionsNote 声明（可由各示例 build.mjs 重建）；审查：kit/scripts 全读 —— 无 allowed-tools，检查脚本走本机 Chrome devtools（127.0.0.1），唯一网络路径为 publish.mjs `--submit` 显式推 wheresryan22/anatomy-community。索引/发现已重建，validate 过。
+- `agent-x/gzh-design@f8fc971`（isjiamu/gzh-design-skill，AGPL）仍待 Review。
+- 宿主打磨轮在 OpenRA `agent-x/skill-hub-wrap`（动效表三修、checklist.design 六清单走查、搜索命中高亮），回执在 OpenRA `docs/acceptance/skill-hub/`。
+
 ## 2. 里程碑
 
 | 里程碑 | 内容 | 通过条件 |
