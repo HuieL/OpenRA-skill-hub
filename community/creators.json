@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "skillHub": "eea5e0afdf9b7dc81debcdae6c4cc1184c9c6910",
+  "skillHub": "ca85dbd74425b6139aa20308a407e9f7f0577b5f",
   "extensionHub": null,
   "creators": [
     {
@@ -104,6 +104,12 @@
           "entry": "skill:hub.impeccable",
           "roles": [
             "adapter",
+            "submitter"
+          ]
+        },
+        {
+          "entry": "skill:hub.kami",
+          "roles": [
             "submitter"
           ]
         },
@@ -2832,6 +2838,18 @@
       "credits": [
         {
           "entry": "skill:hub.archify",
+          "roles": [
+            "author"
+          ]
+        }
+      ]
+    },
+    {
+      "github": "tw93",
+      "name": "Tw93",
+      "credits": [
+        {
+          "entry": "skill:hub.kami",
           "roles": [
             "author"
           ]

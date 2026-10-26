@@ -577,6 +577,19 @@
       ]
     },
     {
+      "name": "kami",
+      "source": {
+        "source": "github",
+        "repo": "tw93/kami",
+        "sha": "305e2111a7f52fb704f0fc4007e1e8751900fecf"
+      },
+      "description": "1 skill from tw93/kami, pinned at 305e2111a7f5 as listed on the OpenAR Skill Hub.",
+      "strict": false,
+      "skills": [
+        "./skills/kami"
+      ]
+    },
+    {
       "name": "anatomy",
       "source": {
         "source": "github",
