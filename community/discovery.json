@@ -1,8 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T13:49:10Z",
-  "skillHub": "ca85dbd74425b6139aa20308a407e9f7f0577b5f",
+  "generatedAt": "2026-10-27T02:50:23Z",
+  "skillHub": "984e8314663305917d60e85e570d4bf03f89a434",
   "new": [
+    {
+      "id": "skill:hub.kami",
+      "firstRecorded": "2026-10-26T21:54:46+08:00"
+    },
     {
       "id": "skill:hub.anatomy",
       "firstRecorded": "2026-10-26T18:51:09+08:00"
@@ -917,6 +921,10 @@
     }
   ],
   "updated": [
+    {
+      "id": "skill:hub.kami",
+      "lastRecorded": "2026-10-26T21:54:46+08:00"
+    },
     {
       "id": "skill:hub.anatomy",
       "lastRecorded": "2026-10-26T18:51:09+08:00"
@@ -1837,8 +1845,8 @@
     "repos": [
       {
         "repo": "mattpocock/skills",
-        "stars": 303746,
-        "forks": 25550,
+        "stars": 304149,
+        "forks": 25599,
         "pushedAt": "2026-10-22T09:35:28Z",
         "entries": [
           "skill:mattpocock.claude-handoff",
@@ -1874,8 +1882,8 @@
       },
       {
         "repo": "anthropics/skills",
-        "stars": 183907,
-        "forks": 21761,
+        "stars": 184012,
+        "forks": 21773,
         "pushedAt": "2026-10-09T18:45:52Z",
         "entries": [
           "skill:anthropics.frontend-design"
@@ -1883,8 +1891,8 @@
       },
       {
         "repo": "DietrichGebert/ponytail",
-        "stars": 176704,
-        "forks": 9659,
+        "stars": 177257,
+        "forks": 9693,
         "pushedAt": "2026-10-18T01:55:14Z",
         "entries": [
           "skill:ponytail.ponytail",
@@ -1895,8 +1903,8 @@
       },
       {
         "repo": "VoltAgent/awesome-design-md",
-        "stars": 123630,
-        "forks": 13713,
+        "stars": 123752,
+        "forks": 13734,
         "pushedAt": "2026-10-14T05:46:48Z",
         "entries": [
           "skill:hub.research-design-system"
@@ -1904,8 +1912,8 @@
       },
       {
         "repo": "Leonxlnx/taste-skill",
-        "stars": 102773,
-        "forks": 6946,
+        "stars": 103052,
+        "forks": 6966,
         "pushedAt": "2026-10-26T12:28:18Z",
         "entries": [
           "skill:leonxlnx.taste-skill"
@@ -1913,26 +1921,26 @@
       },
       {
         "repo": "tt-a1i/archify",
-        "stars": 89588,
-        "forks": 6066,
-        "pushedAt": "2026-10-26T05:59:06Z",
+        "stars": 89871,
+        "forks": 6092,
+        "pushedAt": "2026-10-27T01:15:41Z",
         "entries": [
           "skill:hub.archify"
         ]
       },
       {
         "repo": "pbakaus/impeccable",
-        "stars": 88556,
-        "forks": 5283,
-        "pushedAt": "2026-10-26T12:46:18Z",
+        "stars": 89317,
+        "forks": 5315,
+        "pushedAt": "2026-10-27T02:05:40Z",
         "entries": [
           "skill:hub.impeccable"
         ]
       },
       {
         "repo": "K-Dense-AI/scientific-agent-skills",
-        "stars": 54717,
-        "forks": 4820,
+        "stars": 54788,
+        "forks": 4829,
         "pushedAt": "2026-10-26T09:36:15Z",
         "entries": [
           "skill:kdense.13c-metabolic-flux",
@@ -2092,9 +2100,9 @@
       },
       {
         "repo": "Yuan1z0825/nature-skills",
-        "stars": 50751,
-        "forks": 2634,
-        "pushedAt": "2026-10-25T04:28:47Z",
+        "stars": 50813,
+        "forks": 2640,
+        "pushedAt": "2026-10-27T02:37:21Z",
         "entries": [
           "skill:nature.academic-search",
           "skill:nature.citation",
@@ -2117,8 +2125,8 @@
       },
       {
         "repo": "nutlope/hallmark",
-        "stars": 35294,
-        "forks": 1839,
+        "stars": 36602,
+        "forks": 1910,
         "pushedAt": "2026-10-22T17:20:32Z",
         "entries": [
           "skill:hub.hallmark"
@@ -2126,8 +2134,8 @@
       },
       {
         "repo": "wheresryan22/anatomy",
-        "stars": 20908,
-        "forks": 1673,
+        "stars": 21108,
+        "forks": 1709,
         "pushedAt": "2026-10-18T20:20:24Z",
         "entries": [
           "skill:hub.anatomy"
@@ -2135,17 +2143,17 @@
       },
       {
         "repo": "tw93/kami",
-        "stars": 12091,
-        "forks": 566,
-        "pushedAt": "2026-10-26T13:12:35Z",
+        "stars": 12093,
+        "forks": 568,
+        "pushedAt": "2026-10-26T14:30:13Z",
         "entries": [
           "skill:hub.kami"
         ]
       },
       {
         "repo": "KKKKhazix/human-writing",
-        "stars": 4229,
-        "forks": 321,
+        "stars": 4236,
+        "forks": 322,
         "pushedAt": "2026-08-11T15:07:45Z",
         "entries": [
           "skill:hub.human-writing"
@@ -2153,7 +2161,7 @@
       },
       {
         "repo": "isjiamu/gzh-design-skill",
-        "stars": 4160,
+        "stars": 4162,
         "forks": 471,
         "pushedAt": "2026-10-21T03:53:41Z",
         "entries": [
@@ -2162,7 +2170,7 @@
       },
       {
         "repo": "vercel-labs/web-interface-guidelines",
-        "stars": 1038,
+        "stars": 1043,
         "forks": 73,
         "pushedAt": "2026-10-05T20:49:17Z",
         "entries": [
@@ -2171,8 +2179,8 @@
       },
       {
         "repo": "ythx-101/live-panel-skill",
-        "stars": 809,
-        "forks": 105,
+        "stars": 808,
+        "forks": 104,
         "pushedAt": "2026-10-20T15:59:20Z",
         "entries": [
           "skill:ythx-101.live-panel"
@@ -2227,7 +2235,7 @@
         "repo": "HuieL/OpenAR-skill-hub",
         "stars": 0,
         "forks": 0,
-        "pushedAt": "2026-10-26T11:08:49Z",
+        "pushedAt": "2026-10-26T13:55:37Z",
         "entries": [
           "skill:hub.archify",
           "skill:hub.craft-suite",

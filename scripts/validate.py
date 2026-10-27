@@ -240,6 +240,10 @@ def check_files(entry: dict, entry_id: str, entry_dir: pathlib.Path) -> None:
         fail(entry_id, "requires must be a list of ids")
     if "permissionsNote" in entry and not isinstance(entry["permissionsNote"], str):
         fail(entry_id, "permissionsNote must be a string")
+    elif isinstance(entry.get("permissionsNote"), str) and len(entry["permissionsNote"]) > 500:
+        # The host rejects an over-long note at install time
+        # (skill_hub_entry.rs: bounded(p, 500)); catch it at the gate.
+        fail(entry_id, "permissionsNote must be at most 500 chars (host install limit)")
     skill_dir = entry_dir / "skill"
     if skill_dir.is_dir():
         hosted: set[pathlib.Path] = {

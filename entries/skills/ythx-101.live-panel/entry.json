@@ -352,5 +352,5 @@
   ],
   "totalBytes": 1748644,
   "requires": [],
-  "permissionsNote": "allowed-tools or similar declarations inside SKILL.md are claims by the skill's author, not host approvals; OpenAR enforces its own permission gates. Rendering needs a local Chrome/Chromium and ffmpeg; scripts/fetch_fonts.sh downloads one font from GitHub when run. In OpenAR, export with the built-in ora-diagram exporter (ora skill diagram/scripts/export_motion.py) to get the same versioned poster, GIF/WebP/MP4 and figure manifest as built-in motion figures. Demo videos under examples/ are left out of this entry to fit the size cap; their configs are included."
+  "permissionsNote": "allowed-tools declarations in SKILL.md are author claims, not host approvals; OpenAR enforces its own gates. Rendering needs local Chrome/Chromium and ffmpeg; scripts/fetch_fonts.sh downloads one font from GitHub when run. Export with the built-in ora-diagram exporter (ora skill diagram/scripts/export_motion.py) for the same versioned poster, GIF/WebP/MP4 and manifest. examples/ demo videos are left out for the size cap; their configs are included."
 }

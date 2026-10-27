@@ -57,7 +57,7 @@
       "version": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80",
       "revision": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80",
       "entryPath": "entries/skills/hub.anatomy/entry.json",
-      "entrySha256": "8612479da371cfddc044dc454821e818ea32192c158104e58d3394f9a85651f9",
+      "entrySha256": "9d90c6d7d3c43163daa94f6efa84cd3e94115093f1b6c74453b8b46ca499e1e8",
       "icon": "design",
       "tags": [
         "design",
@@ -132,7 +132,7 @@
       "version": "750a50dffdc4abb5e853b98136dad13a57e64ce3",
       "revision": "750a50dffdc4abb5e853b98136dad13a57e64ce3",
       "entryPath": "entries/skills/hub.gzh-design/entry.json",
-      "entrySha256": "48d6c97d2b4f132a912efccc873d529663f570b1665a4f76936b04688cb6cad8",
+      "entrySha256": "aff1ff9f2c7be63f3e5ad297e28e3934fb2267a3aa0b6ab2abcb6585df47d8b9",
       "icon": "design",
       "tags": [
         "design",
@@ -196,7 +196,7 @@
       "version": "4.7.0",
       "revision": "86c480fa648a8e53577c296a750b9619ff7207dd",
       "entryPath": "entries/skills/hub.impeccable/entry.json",
-      "entrySha256": "4f1e8e4911eb396fdbe5c83e19347e610b5bbe5ad652d05e316083ed66660e8a",
+      "entrySha256": "e9227d17d21d3a74a9d2ed94f9c1c93d71a9ee380cc3b4868aacba9cc4ee48ea",
       "icon": "design",
       "tags": [
         "frontend",
@@ -220,7 +220,7 @@
       "version": "1.18.0",
       "revision": "305e2111a7f52fb704f0fc4007e1e8751900fecf",
       "entryPath": "entries/skills/hub.kami/entry.json",
-      "entrySha256": "e5b14b9096c2ce1af719ecb5a404b8196bb4df9fdf1e818783241a089bcb3f08",
+      "entrySha256": "2aa228da7dcee93b8282d19f772d5e032f1234382103065139a0126a83ee7971",
       "icon": "design",
       "tags": [
         "design",
@@ -5321,7 +5321,7 @@
       "version": "439c9addce7e7ac2b4e384aa847a351926c8f945",
       "revision": "439c9addce7e7ac2b4e384aa847a351926c8f945",
       "entryPath": "entries/skills/ythx-101.live-panel/entry.json",
-      "entrySha256": "bc2e3b04248b460f937ae7f97236936114359feae77a24acce2bcfa1e47d6263",
+      "entrySha256": "2ac712326a845fed9f5c22f2e94e033e082ccb728b502f7e44f004cffbfff39a",
       "icon": "diagram",
       "tags": [
         "animation",

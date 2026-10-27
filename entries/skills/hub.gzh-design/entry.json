@@ -157,5 +157,5 @@
   ],
   "totalBytes": 359066,
   "requires": [],
-  "permissionsNote": "The upstream SKILL.md declares no allowed-tools; any tool use is the host's decision. Its workflow runs four local Python scripts (extract_docx.py, validate_gzh_html.py, component_lint.py, wrap_preview.py) which are stdlib-only and make no network calls; the entry carries them pinned by hash, and running them is exactly the kind of action the host approves per-session. The license is AGPL-3.0-or-later: copyleft terms apply to this skill's source; note for the review gate that AGPL is OSI-approved but strong copyleft."
+  "permissionsNote": "SKILL.md declares no allowed-tools; tool use is the host's decision. Its four local Python scripts (extract_docx, validate_gzh_html, component_lint, wrap_preview) are stdlib-only, make no network calls, and run under the host's per-session approval. License AGPL-3.0-or-later: OSI-approved strong copyleft; terms apply to this skill's source."
 }

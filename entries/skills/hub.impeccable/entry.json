@@ -427,7 +427,7 @@
   ],
   "totalBytes": 2243439,
   "requires": [],
-  "permissionsNote": "Every verb runs a native engine binary: on first use the launcher downloads the pinned release from github.com/pbakaus/impeccable and verifies it against its .sha256 sidecar (cached in ~/.impeccable, or IMPECCABLE_HOME; IMPECCABLE_BIN uses a local build). No update check. The optional design hook is written only to the project's own harness files when the user runs `hooks on`. allowed-tools declarations inside SKILL.md are upstream claims, not host approvals; OpenAR enforces its own permission gates.",
+  "permissionsNote": "Every verb runs a native engine binary: on first use the launcher downloads the pinned release from github.com/pbakaus/impeccable and verifies it against its .sha256 sidecar (cached in ~/.impeccable or IMPECCABLE_HOME; IMPECCABLE_BIN uses a local build). No update check. The optional design hook is written only to the project's harness files on `hooks on`. SKILL.md allowed-tools are upstream claims, not host approvals.",
   "upstream": {
     "repo": "pbakaus/impeccable",
     "revision": "5cb95eea9c96479f57afe0732a45470d30183326",
