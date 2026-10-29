@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "id": "hub.hyperframes",
+  "kind": "skill",
+  "name": "HyperFrames",
+  "summary": "Make, edit, animate and render videos with HyperFrames (HTML rendered to video): the composition contract, storyboards, captions, motion, sound and review workflows, and the render contract. Pinned at the same upstream v0.8.202 tree the research-videos module pins for the CLI.",
+  "summaryI18n": {
+    "zh-CN": "\u7528 HyperFrames\uff08HTML \u6e32\u67d3\u6210\u89c6\u9891\uff09\u5236\u4f5c\u3001\u7f16\u8f91\u3001\u52a8\u753b\u4e0e\u6e32\u67d3\u89c6\u9891\uff1acomposition \u5408\u540c\u3001\u5206\u955c\u3001\u5b57\u5e55\u3001motion\u3001\u58f0\u97f3\u4e0e review \u6d41\u7a0b\u3002\u9489\u5728\u4e0e research-videos \u6a21\u5757 CLI \u76f8\u540c\u7684\u4e0a\u6e38 v0.8.202 \u6811\u3002"
+  },
+  "authors": [
+    {
+      "name": "HeyGen",
+      "github": "heygen-com"
+    }
+  ],
+  "registrySubmitter": "HuieL",
+  "categories": [
+    "video"
+  ],
+  "source": {
+    "repo": "heygen-com/hyperframes",
+    "path": "skills/hyperframes",
+    "revision": "f8d51f31466effa90945fa4e6b362a76fb75d8dd"
+  },
+  "version": "0.8.202",
+  "license": "Apache-2.0",
+  "licenseFile": "LICENSE",
+  "review": {
+    "status": "unreviewed",
+    "reviewedRevision": null,
+    "reviewer": null
+  },
+  "compat": {},
+  "delivery": "hub",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "180ce4eea5f33f1617105c92e2690a5a2320abf624c263186ec0cb1a78a919ef",
+      "bytes": 7167,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/biennale-yellow/FRAME.md",
+      "sha256": "76d22cced9c152b0edb520543cf34c4ce772a312caa7211c40d4315b53c053cf",
+      "bytes": 17789,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/biennale-yellow/caption-skin.html",
+      "sha256": "b0e4812d9cb5852969be276f8a98ffa2b293ba8cc902fababae3f3f6340088c3",
+      "bytes": 8131,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/biennale-yellow/frame-showcase.html",
+      "sha256": "5ba04e47cf9897e023dcfa49e1ec26fe26bac0c5061097dc6e7cb1d9ed46d7d0",
+      "bytes": 34908,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/blockframe/FRAME.md",
+      "sha256": "ef8d9d47a209bed4ccc2d928c14a81cdaecb5129f5dc0cdc0dc40afc7ef92931",
+      "bytes": 16292,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/blockframe/caption-skin.html",
+      "sha256": "a1073a9910efb0bd146d9ee4513ef95bd72c4993db399ccb4decf2d10002faab",
+      "bytes": 8345,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/blockframe/frame-showcase.html",
+      "sha256": "8d2e4963713928b353d0aa28c2c83fce415df81b66a500c192b602c0aaf4ddf2",
+      "bytes": 38856,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/blue-professional/FRAME.md",
+      "sha256": "62e9a445885f6057084493de385a8ce20c3b4a299ae36a553ef54884f06bad68",
+      "bytes": 17202,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/blue-professional/caption-skin.html",
+      "sha256": "e2524d610d0c833f6b71355357c13b26e670ec581c28ce37d12ead15ce4297b4",
+      "bytes": 8257,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/blue-professional/frame-showcase.html",
+      "sha256": "715b130d086977a48925a3c79bb079fbc7270274c9c9a7761bf275df3020b0ba",
+      "bytes": 39108,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/bold-poster/FRAME.md",
+      "sha256": "af756ef993099f9ac78328f676eb79a6572ff0e9c2aacf12787471cd4525b171",
+      "bytes": 15984,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/bold-poster/caption-skin.html",
+      "sha256": "a19c81d30377687605e2345601efabba5315d0d4db13c3ab4748d7004778c24a",
+      "bytes": 8720,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/bold-poster/frame-showcase.html",
+      "sha256": "57bbc3374b6a8b37ce59e36ed784c22bbb88fd44d039955221913b3e1bacf159",
+      "bytes": 32385,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/broadside/FRAME.md",
+      "sha256": "3af0a1e5e61bece19841671672d7732082f03d5699b713475e90323a21dbcc89",
+      "bytes": 16303,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/broadside/caption-skin.html",
+      "sha256": "f074e1a9662d48ec0008aff7fffa1bdeeda40c5c5e05db9bd0fa6dd2ecdc7a6b",
+      "bytes": 8431,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/broadside/frame-showcase.html",
+      "sha256": "8d23a2cbeb898568a5626b38ffc864236fb4a09930d59b17c34c45f34c8e4161",
+      "bytes": 33899,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/capsule/FRAME.md",
+      "sha256": "f06dba67a3859f7c732b5177f7bcc58c94592caa5d6bbbcc6730a7876f5baa7a",
+      "bytes": 17214,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/capsule/caption-skin.html",
+      "sha256": "0e62f725051213512566b6f615c438b893a3b39507a5a2666a52938c8dd74e46",
+      "bytes": 8374,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/capsule/frame-showcase.html",
+      "sha256": "b3a642b5df3bbfb1ff227f1b82ee3ea02b51f20a0d7c5c46c97d72b180cddb4f",
+      "bytes": 43052,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/cartesian/FRAME.md",
+      "sha256": "3dc6a31813a333b2a7a1509ddbd3b4dabbbd7e12e6479b6cff10d69c185fec95",
+      "bytes": 17294,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/cartesian/caption-skin.html",
+      "sha256": "e3e08147d1725d40576f4f97687ce0c6a4c32ee1b74dac2720f0ba652b9dfcfd",
+      "bytes": 8315,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/cartesian/frame-showcase.html",
+      "sha256": "d7867cee5e07c4f22345c566071f2ce0261b3fccca111a94dfbec5fde64f3e55",
+      "bytes": 35340,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/cobalt-grid/FRAME.md",
+      "sha256": "62a6c9e6e5188cc29b9c0098e9bb8e72c23f152d9a99dd92c58139d26b69b19f",
+      "bytes": 17286,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/cobalt-grid/caption-skin.html",
+      "sha256": "5cc71d8f0669e80d12ccb6bb83722870eecfeccade0bf64f8fb165e23fbadf3f",
+      "bytes": 8825,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/cobalt-grid/frame-showcase.html",
+      "sha256": "b135214cd2e310273a01e3f72b2828149f022803954a22a13cbf27aa1c2f518a",
+      "bytes": 47020,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/code-editorial/FRAME.md",
+      "sha256": "c24f6925cf938b88a93368443091440648e715c75ac38bd90abdaab6130bb4ad",
+      "bytes": 20610,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/code-editorial/caption-skin.html",
+      "sha256": "724a20adff3824e4d31d5d51cc094337209a896a5ef3ae1e4e28aa502ee980e4",
+      "bytes": 8322,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/code-editorial/fonts/EBGaramond-400.woff2",
+      "sha256": "b63448e2680a0dbde70ebb2f3de78f6c515122835491f938e8a8595b46f29210",
+      "bytes": 21704,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/code-editorial/fonts/EBGaramond-700.woff2",
+      "sha256": "5d0f8a497a48fd2a3611d07acc844f65c9fbb35419eafa4e1295f5f0f95f86e4",
+      "bytes": 23076,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/code-editorial/fonts/Inter-400.woff2",
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "bytes": 23664,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/code-editorial/fonts/Inter-700.woff2",
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491",
+      "bytes": 24356,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/code-editorial/fonts/JetBrainsMono-400.woff2",
+      "sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
+      "bytes": 21168,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/code-editorial/fonts/JetBrainsMono-700.woff2",
+      "sha256": "d0d4e818808f2a0ba39b2b09d1989366f63494e295f003c7ef436697378507e8",
+      "bytes": 21908,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/code-editorial/fonts/OFL-eb-garamond.txt",
+      "sha256": "f03c8eda63076cd52317dcd40aa04db8472d4cb592dfaafa385129dfdafc7f9c",
+      "bytes": 4519,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/code-editorial/fonts/OFL-inter.txt",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+      "bytes": 4477,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/code-editorial/fonts/OFL-jetbrains-mono.txt",
+      "sha256": "403581b69dac5cff4079205e01c6b467e56af449ecbd7247693ddb1baafa005b",
+      "bytes": 4524,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/code-editorial/frame-showcase.html",
+      "sha256": "08d711f5409a6af3fb6de05febe47fee77e4c8e85517bf2d087e2277b524e4ab",
+      "bytes": 43711,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/coral/FRAME.md",
+      "sha256": "8530ecb36d1bb2d53392d88d972df35beeba19a5bcb3260fc9b18a58de7cdfe8",
+      "bytes": 18950,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/coral/caption-skin.html",
+      "sha256": "44904b0567292521391fb576f07de7d2f5d8bce81d0369460f1054d093a06877",
+      "bytes": 8330,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/coral/frame-showcase.html",
+      "sha256": "8ddf31ae13a4e57fe9730892fbbcb171cae67a204b5cb00b00374984f49b8f76",
+      "bytes": 36472,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/creative-mode/FRAME.md",
+      "sha256": "c1a1359502d9fc79ef267305291fe0f651219c72d88088cee32327dd933dead8",
+      "bytes": 19605,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/creative-mode/caption-skin.html",
+      "sha256": "2a45f759d64f5f6713ad2d529468df5bb345afe7d441d46c6316072348c1061b",
+      "bytes": 8389,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/creative-mode/frame-showcase.html",
+      "sha256": "32c1371fcd526c56edb515e5b255ad736a3e330ba3ff2631c61576064b384ef0",
+      "bytes": 38750,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/daisy-days/FRAME.md",
+      "sha256": "42d827dbd279990052e171d04380b5e6bbc111ae391dc283deb7a452e70b9b97",
+      "bytes": 17445,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/daisy-days/caption-skin.html",
+      "sha256": "5af839f607efb817d96956f3b016fd6fd065851f69ac1ac223a8634737bd497e",
+      "bytes": 8516,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/daisy-days/frame-showcase.html",
+      "sha256": "4fb93e5fa3ba12367f303996b6ca8b62f8e18c721d02e8032274df12d49d96f3",
+      "bytes": 42293,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/editorial-forest/FRAME.md",
+      "sha256": "ceeb2ab768367da1e1f3e1eca36ab9feeb3de3e4d15493319b0044c3d869329c",
+      "bytes": 17019,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/editorial-forest/caption-skin.html",
+      "sha256": "50427bf7fcec9c8ac22f195a0e7fc442ad85e733198837ee0b9b8050296a0fa5",
+      "bytes": 8356,
+      "executable": false
+    },
+    {
+      "path": "assets/frame-presets/editorial-forest/frame-showcase.html",
+      "sha256": "bb87b88b91184f4fee7f02eea63ed35d9d378fa89fad8988326e31e82a43dbb1",
+      "bytes": 36847,
+      "executable": false
+    },
+    {
+      "path": "references/captions.md",
+      "sha256": "e7e2af7eace992487baa455bfa703fb3d770fb29f36732541554e60a46896d54",
+      "bytes": 4985,
+      "executable": false
+    },
+    {
+      "path": "references/film.md",
+      "sha256": "b684403f725cf720b9f192bafd420ca55f24060114004234a4e46a715de7a183",
+      "bytes": 7236,
+      "executable": false
+    },
+    {
+      "path": "references/format.md",
+      "sha256": "6418c8f1fe24943be2eb913421a6355d5d4bee60fe8eea4ced9b78ccdf88a4bb",
+      "bytes": 12884,
+      "executable": false
+    },
+    {
+      "path": "references/look.md",
+      "sha256": "5128a54cdb75bca2f627170e4a3a9667f4f11cf1579301fc16c53862c29c3ad3",
+      "bytes": 6031,
+      "executable": false
+    },
+    {
+      "path": "references/motion.md",
+      "sha256": "80b9bd70c011b7fc679f351cb41b993b16d610af1cda316eaf9d19bf9c08372f",
+      "bytes": 12162,
+      "executable": false
+    },
+    {
+      "path": "references/overlays.md",
+      "sha256": "d87fa3d13e8e0dace593f4aafb68c085b7f4393eee468c7695a74d5665150da3",
+      "bytes": 2592,
+      "executable": false
+    },
+    {
+      "path": "references/plugin-installation.md",
+      "sha256": "d3268edd1bbf2bc4e077108462aacff8c04bd2660472dd6ca9fd1bb32839b661",
+      "bytes": 2706,
+      "executable": false
+    },
+    {
+      "path": "references/review.md",
+      "sha256": "90886b58db02aaa53e6b91c433748629eda061b18465804b56ebbbab92508e56",
+      "bytes": 5327,
+      "executable": false
+    },
+    {
+      "path": "references/runtimes.md",
+      "sha256": "ace12b068aa573717f68e7e3e2e333bed8fc692ba63434efaaf362073b3463b6",
+      "bytes": 4019,
+      "executable": false
+    },
+    {
+      "path": "references/skill-lifecycle.md",
+      "sha256": "3039b344a4bc63118ff7680a1008bcc7bfc0637563e6ac69f59cc5e06a31874a",
+      "bytes": 4191,
+      "executable": false
+    },
+    {
+      "path": "references/sound.md",
+      "sha256": "be9e39ef947678b3ffed452063ce414af4a7d7c534b1e6c440bb5ce474d28ab4",
+      "bytes": 3599,
+      "executable": false
+    },
+    {
+      "path": "references/spec.md",
+      "sha256": "6fa0658c5cf5c23058f70a6549cc952d683979052a0934760ba748bbec88fbc0",
+      "bytes": 6055,
+      "executable": false
+    },
+    {
+      "path": "references/story.md",
+      "sha256": "3c2b96bb7f262652f4bf5efdef1ae806b47fd259c6704cb131938c5254965f22",
+      "bytes": 11486,
+      "executable": false
+    },
+    {
+      "path": "references/storyboard-format.md",
+      "sha256": "f79e3be44cf2e506cdd2d1c46926319a0067f11889fe8aaf3a55759a9c61fb86",
+      "bytes": 6696,
+      "executable": false
+    },
+    {
+      "path": "references/storyboard.md",
+      "sha256": "f757c6d2b26e1a3587a63a4a8f9aafab86d9507ed31579f4dda4279397742fe3",
+      "bytes": 4067,
+      "executable": false
+    },
+    {
+      "path": "references/types/3d.md",
+      "sha256": "1a8c965d36bac37c5625cd404b37c3d3913632cb858881d89741afacc560ea12",
+      "bytes": 1673,
+      "executable": false
+    },
+    {
+      "path": "references/types/character.md",
+      "sha256": "e8b4f6fd622acff593e2d7e478aa4e18ace1f9f785d16e42db5faf57ed525498",
+      "bytes": 1635,
+      "executable": false
+    },
+    {
+      "path": "references/types/data.md",
+      "sha256": "c5fda22433aca573b871eeff956cd57e3773d6b16ffd9b3cc5726937912c1b7a",
+      "bytes": 1322,
+      "executable": false
+    },
+    {
+      "path": "references/types/explainer.md",
+      "sha256": "ef2bd945bd347e760fd483515189c58e8000bd2cbc5f4b1c2d3e5d34e4d81f4e",
+      "bytes": 3045,
+      "executable": false
+    },
+    {
+      "path": "references/types/launch.md",
+      "sha256": "405984871b15c2acc8535bc1c95a2205a9c89f97f0d5313cda8c4fb23c6d7900",
+      "bytes": 2902,
+      "executable": false
+    },
+    {
+      "path": "references/types/music.md",
+      "sha256": "868df2814d2a8e8f2bc884372d674320aee43c995fc67d25a109ebfdecb58b4a",
+      "bytes": 1606,
+      "executable": false
+    },
+    {
+      "path": "references/types/vertical.md",
+      "sha256": "fed9f5a1a3ceb204bb54e0dda0fd50befe611d0ab388a5036fc80cbc117a691b",
+      "bytes": 1646,
+      "executable": false
+    },
+    {
+      "path": "scripts/bake-basemap.mjs",
+      "sha256": "8322256cd43c597e2962af6c33c6be652084ae24c0c9a6af24183388d64e2b8d",
+      "bytes": 18158,
+      "executable": false
+    },
+    {
+      "path": "scripts/lib/main-module.mjs",
+      "sha256": "61811e09110856e1439c29875e4a4ad7701ae45d4045f9d1dcb6a7929698e4c0",
+      "bytes": 479,
+      "executable": false
+    },
+    {
+      "path": "scripts/lib/main-module.test.mjs",
+      "sha256": "3d0ee22dd8b7acbdf8997c11449f29f13bafe6b20668a478ba504f66ec1ef151",
+      "bytes": 1943,
+      "executable": false
+    },
+    {
+      "path": "scripts/locate.mjs",
+      "sha256": "9274b1b63a74b305f044dfd907ae5ddae538d566d31c23b81c39975be6317147",
+      "bytes": 8234,
+      "executable": false
+    },
+    {
+      "path": "scripts/plugin-cli.mjs",
+      "sha256": "1ec46cdb9d819ecc9367aba719fea9253089617ead8c5454e59ab18b206711fb",
+      "bytes": 2899,
+      "executable": false
+    },
+    {
+      "path": "scripts/plugin-cli.test.mjs",
+      "sha256": "abfdf2498b57509438077803bee3a626c6fc13e1014ae066e5281edbfc4ca23d",
+      "bytes": 4398,
+      "executable": false
+    }
+  ],
+  "totalBytes": 1141484,
+  "requires": [],
+  "permissionsNote": "allowed-tools declarations inside SKILL.md are upstream claims, not host approvals; OpenAR enforces its own permission gates. The skill's render and registry commands run in the user's project, not as part of this catalog."
+}

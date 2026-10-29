@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "hub.hyperframes-registry",
+  "kind": "skill",
+  "name": "HyperFrames Registry",
+  "summary": "About 450 ready-made HyperFrames blocks and components (transitions, overlays, titles, kinetic type, captions, charts, maps, 3D) installed as editable source via hyperframes add/catalog, starting from a registry item instead of hand-building. Declares a dependency on the hyperframes skill, whose plugin rules it references.",
+  "summaryI18n": {
+    "zh-CN": "\u7ea6 450 \u4e2a\u73b0\u6210 HyperFrames blocks \u4e0e components\uff08\u8f6c\u573a\u3001overlay\u3001\u6807\u9898\u3001kinetic type\u3001\u5b57\u5e55\u3001\u56fe\u8868\u3001\u5730\u56fe\u30013D\uff09\uff0c\u7ecf hyperframes add/catalog \u88c5\u4e3a\u53ef\u7f16\u8f91 source\u3002\u58f0\u660e\u4f9d\u8d56 hyperframes \u6280\u80fd\uff08\u5f15\u7528\u5176 plugin \u89c4\u5219\uff09\u3002"
+  },
+  "authors": [
+    {
+      "name": "HeyGen",
+      "github": "heygen-com"
+    }
+  ],
+  "registrySubmitter": "HuieL",
+  "categories": [
+    "video"
+  ],
+  "source": {
+    "repo": "heygen-com/hyperframes",
+    "path": "skills/hyperframes-registry",
+    "revision": "f8d51f31466effa90945fa4e6b362a76fb75d8dd"
+  },
+  "version": "0.8.202",
+  "license": "Apache-2.0",
+  "licenseFile": "LICENSE",
+  "review": {
+    "status": "unreviewed",
+    "reviewedRevision": null,
+    "reviewer": null
+  },
+  "compat": {},
+  "delivery": "hub",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "1c7b27632c9ea9febaafc2d9af073b377029f46be4bee70d75b5e713eb698423",
+      "bytes": 4246,
+      "executable": false
+    },
+    {
+      "path": "examples/add-block.md",
+      "sha256": "0e3353755c4ef55e53570d1266a4a43b2c5aef9bbe41276430e38cfa6580b83a",
+      "bytes": 1232,
+      "executable": false
+    },
+    {
+      "path": "examples/add-component.md",
+      "sha256": "d06992d31eec617a91f5c34630c9274c52dd07898bd24f10a869d0d1cab5af29",
+      "bytes": 1473,
+      "executable": false
+    },
+    {
+      "path": "references/component-quality-bar.md",
+      "sha256": "f0d4c3c44131bc0791f8a8cc3d2d7478d38045451775af7d20b2dd47cf5f91ac",
+      "bytes": 16390,
+      "executable": false
+    },
+    {
+      "path": "references/contributing.md",
+      "sha256": "7e9e6fd894e54251fad9aa30a08730960ceb776da590a175eadfc1d9014106b1",
+      "bytes": 7258,
+      "executable": false
+    },
+    {
+      "path": "references/demo-html-pattern.md",
+      "sha256": "dfc50cd33eff2c2be75437786fc3e851ab0085f7d453fb35b3380ecf9a6e9f04",
+      "bytes": 1884,
+      "executable": false
+    },
+    {
+      "path": "references/discovery.md",
+      "sha256": "ca82fcc1e0b2d824b72a8bda99b60d257b23d493fa1d28adbb0548a762cacd04",
+      "bytes": 16593,
+      "executable": false
+    },
+    {
+      "path": "references/install-locations.md",
+      "sha256": "83793e7d6aeea9a751755e4bd23ea48182ff9af082287b98a1192343d2571dd1",
+      "bytes": 1519,
+      "executable": false
+    },
+    {
+      "path": "references/placeholder-material.md",
+      "sha256": "15adf4a40b26166f64df784aed065adb58051d9ccd5c0c52ad9b71e3b8367a09",
+      "bytes": 9006,
+      "executable": false
+    },
+    {
+      "path": "references/search.md",
+      "sha256": "3da7b42d2a0d8d9e2cbcdd8591da5a83203c424de9f46a995950d374a74531ee",
+      "bytes": 9416,
+      "executable": false
+    },
+    {
+      "path": "references/templates.md",
+      "sha256": "98e1ef62d3c1264b28139d85a1c9b5a8b7438209914aebef6d9890e3f4275805",
+      "bytes": 11451,
+      "executable": false
+    },
+    {
+      "path": "references/wiring-blocks.md",
+      "sha256": "397f9ad5a9244d173b97bb5a5dfe76ea3cbccfb8dde16cba8b3dabc6044b011a",
+      "bytes": 2641,
+      "executable": false
+    },
+    {
+      "path": "references/wiring-components.md",
+      "sha256": "6c8341c29fdae6de4f9fd1560a668d11cf34731b81fe5a06c9aeb4a000047b2a",
+      "bytes": 1723,
+      "executable": false
+    }
+  ],
+  "totalBytes": 84832,
+  "requires": [
+    "hub.hyperframes"
+  ],
+  "permissionsNote": "allowed-tools declarations inside SKILL.md are upstream claims, not host approvals; OpenAR enforces its own permission gates. The skill's render and registry commands run in the user's project, not as part of this catalog."
+}

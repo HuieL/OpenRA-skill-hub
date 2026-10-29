@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "skillHub": "88b49490db962cac85223137698f22edac851f98",
+  "skillHub": "d93de568e958fcb076dc9469793e17393457400b",
   "extensionHub": null,
   "creators": [
     {
@@ -20,6 +20,13 @@
       "name": null,
       "credits": [
         {
+          "entry": "skill:hub.anatomy",
+          "roles": [
+            "adapter",
+            "submitter"
+          ]
+        },
+        {
           "entry": "skill:hub.diagram-design",
           "roles": [
             "adapter",
@@ -34,6 +41,24 @@
         },
         {
           "entry": "skill:hub.human-writing",
+          "roles": [
+            "submitter"
+          ]
+        },
+        {
+          "entry": "skill:hub.hyperframes",
+          "roles": [
+            "submitter"
+          ]
+        },
+        {
+          "entry": "skill:hub.hyperframes-cli",
+          "roles": [
+            "submitter"
+          ]
+        },
+        {
+          "entry": "skill:hub.hyperframes-registry",
           "roles": [
             "submitter"
           ]
@@ -128,6 +153,30 @@
       ]
     },
     {
+      "github": "heygen-com",
+      "name": "HeyGen",
+      "credits": [
+        {
+          "entry": "skill:hub.hyperframes",
+          "roles": [
+            "author"
+          ]
+        },
+        {
+          "entry": "skill:hub.hyperframes-cli",
+          "roles": [
+            "author"
+          ]
+        },
+        {
+          "entry": "skill:hub.hyperframes-registry",
+          "roles": [
+            "author"
+          ]
+        }
+      ]
+    },
+    {
       "github": "iOfficeAI",
       "name": "iOfficeAI",
       "credits": [
@@ -181,6 +230,18 @@
         },
         {
           "entry": "skill:hub.writing-guidelines",
+          "roles": [
+            "author"
+          ]
+        }
+      ]
+    },
+    {
+      "github": "wheresryan22",
+      "name": "Ryan",
+      "credits": [
+        {
+          "entry": "skill:hub.anatomy",
           "roles": [
             "author"
           ]

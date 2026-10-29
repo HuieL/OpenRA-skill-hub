@@ -2,6 +2,16 @@
   "schemaVersion": 1,
   "entries": [
     {
+      "id": "hub.anatomy",
+      "name": "Anatomy",
+      "summary": "Crafted, highly detailed interactive isometric SVG figures that explain a technical idea as a real physical object (a rig, a dial, a plotter), with optional WebGL/3D effects, build scripts and visual-audit checks. Used by the research-videos module for mechanism explainer scenes; carried verbatim minus the 25 MB examples/ demos (see PROVENANCE.md in the skill).",
+      "delivery": "hub",
+      "version": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80",
+      "revision": "d93de568e958fcb076dc9469793e17393457400b",
+      "entryPath": "entries/skills/hub.anatomy/entry.json",
+      "entrySha256": "8f168328fc1aabc7172cbf2640906b0ad8a2a3cdcdd38538a5e7fc08e6cf87fc"
+    },
+    {
       "id": "hub.diagram-design",
       "name": "Diagram Design",
       "summary": "Branded presentation diagrams (architecture, flowchart, sequence, ER, timeline, Sankey and 40+ more types) as HTML/SVG/PNG, with draw.io, Mermaid and Excalidraw import. OpenAR-adapted carry of the upstream skill; the recorded differences are in PROVENANCE.md inside the skill.",
@@ -30,6 +40,36 @@
       "revision": "4fda173f3fef7fb808f3eba991eeb2528ea4b189",
       "entryPath": "entries/skills/hub.human-writing/entry.json",
       "entrySha256": "de50effa799a3d984882448a0bc281f3571b14bdb71de72aad4a6907c73aaa79"
+    },
+    {
+      "id": "hub.hyperframes",
+      "name": "HyperFrames",
+      "summary": "Make, edit, animate and render videos with HyperFrames (HTML rendered to video): the composition contract, storyboards, captions, motion, sound and review workflows, and the render contract. Pinned at the same upstream v0.8.202 tree the research-videos module pins for the CLI.",
+      "delivery": "hub",
+      "version": "0.8.202",
+      "revision": "f8d51f31466effa90945fa4e6b362a76fb75d8dd",
+      "entryPath": "entries/skills/hub.hyperframes/entry.json",
+      "entrySha256": "6b3f1a79c0fb5a13caa6a2faab2ecb746e5213cfb65b07fb5ed51e8f3ecf461d"
+    },
+    {
+      "id": "hub.hyperframes-cli",
+      "name": "HyperFrames CLI",
+      "summary": "The HyperFrames CLI by job: scaffold, check, look at frames, edit the timeline, preview, render locally or in the cloud, plus reading its JSON and recovering from build or render failures. Pinned at the upstream v0.8.202 tree, matching the host's bundled CLI version.",
+      "delivery": "hub",
+      "version": "0.8.202",
+      "revision": "f8d51f31466effa90945fa4e6b362a76fb75d8dd",
+      "entryPath": "entries/skills/hub.hyperframes-cli/entry.json",
+      "entrySha256": "6872af3d6465ad7f8a3d468a6462301f39710e5bdf7af9a487aeb9015bb5d745"
+    },
+    {
+      "id": "hub.hyperframes-registry",
+      "name": "HyperFrames Registry",
+      "summary": "About 450 ready-made HyperFrames blocks and components (transitions, overlays, titles, kinetic type, captions, charts, maps, 3D) installed as editable source via hyperframes add/catalog, starting from a registry item instead of hand-building. Declares a dependency on the hyperframes skill, whose plugin rules it references.",
+      "delivery": "hub",
+      "version": "0.8.202",
+      "revision": "f8d51f31466effa90945fa4e6b362a76fb75d8dd",
+      "entryPath": "entries/skills/hub.hyperframes-registry/entry.json",
+      "entrySha256": "72e2ff61824d1a2cca7f8c2e3ea312afce419917f0cc200ddbec088e0dcb1ad4"
     },
     {
       "id": "hub.officecli-academic-paper",

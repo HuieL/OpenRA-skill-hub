@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "hub.hyperframes-cli",
+  "kind": "skill",
+  "name": "HyperFrames CLI",
+  "summary": "The HyperFrames CLI by job: scaffold, check, look at frames, edit the timeline, preview, render locally or in the cloud, plus reading its JSON and recovering from build or render failures. Pinned at the upstream v0.8.202 tree, matching the host's bundled CLI version.",
+  "summaryI18n": {
+    "zh-CN": "\u6309\u4efb\u52a1\u573a\u666f\u4f7f\u7528 HyperFrames CLI\uff1a\u811a\u624b\u67b6\u3001\u68c0\u67e5\u3001\u67e5\u770b\u5e27\u3001\u7f16\u8f91 timeline\u3001\u9884\u89c8\u3001\u672c\u5730\u6216\u4e91\u7aef\u6e32\u67d3\uff0c\u8bfb\u53d6 JSON \u4e0e\u4ece\u6784\u5efa/\u6e32\u67d3\u5931\u8d25\u4e2d\u6062\u590d\u3002\u9489\u5728\u4e0a\u6e38 v0.8.202 \u6811\uff0c\u4e0e\u5bbf\u4e3b\u5185\u7f6e CLI \u7248\u672c\u4e00\u81f4\u3002"
+  },
+  "authors": [
+    {
+      "name": "HeyGen",
+      "github": "heygen-com"
+    }
+  ],
+  "registrySubmitter": "HuieL",
+  "categories": [
+    "video"
+  ],
+  "source": {
+    "repo": "heygen-com/hyperframes",
+    "path": "skills/hyperframes-cli",
+    "revision": "f8d51f31466effa90945fa4e6b362a76fb75d8dd"
+  },
+  "version": "0.8.202",
+  "license": "Apache-2.0",
+  "licenseFile": "LICENSE",
+  "review": {
+    "status": "unreviewed",
+    "reviewedRevision": null,
+    "reviewer": null
+  },
+  "compat": {},
+  "delivery": "hub",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "44a48ccfa4cbd4f4234f8306c96268a4be56a0f2376abedbf31d2167b3c21286",
+      "bytes": 7131,
+      "executable": false
+    },
+    {
+      "path": "references/beats.md",
+      "sha256": "09689994eba8c977693fdc54702b07dd492e80aa47075de0a027df901dc51b1d",
+      "bytes": 802,
+      "executable": false
+    },
+    {
+      "path": "references/cloud.md",
+      "sha256": "8191550a036130249c26b37912dfd321c771c6670223cc7e0fff7aedd67607bf",
+      "bytes": 11149,
+      "executable": false
+    },
+    {
+      "path": "references/cloudrun.md",
+      "sha256": "16f46a18ee3d165dba3b7ee50362bb32cb0a927643a90821e7b63494fe0bde83",
+      "bytes": 3553,
+      "executable": false
+    },
+    {
+      "path": "references/compare-and-batch.md",
+      "sha256": "d17fa5a16707d981fa6473b99a28aa45abf41bca0fd96c5157c632abd0bfc222",
+      "bytes": 4378,
+      "executable": false
+    },
+    {
+      "path": "references/conventions.md",
+      "sha256": "5012403aa194bc350bdfd89d7c9f00e85c0ecc0356a1417ae4146b7bb8bb7b07",
+      "bytes": 2092,
+      "executable": false
+    },
+    {
+      "path": "references/doctor-browser.md",
+      "sha256": "9747dd5a545d2528914c58d55d0c54281ace686fc5c782072334c6ba0ff65c55",
+      "bytes": 4357,
+      "executable": false
+    },
+    {
+      "path": "references/feedback.md",
+      "sha256": "ae188d5c3e90f0e011b1e322bbfbe10575667b2a5073cffdac05026ac59925a7",
+      "bytes": 2539,
+      "executable": false
+    },
+    {
+      "path": "references/init-and-scaffold.md",
+      "sha256": "30d7bd19a0ec8bf7b32fbc0d216c7f606420c94cbbac5a7b52875799943abd4b",
+      "bytes": 6220,
+      "executable": false
+    },
+    {
+      "path": "references/lambda.md",
+      "sha256": "745e2053c160313b4b2ddaf470181d006aa5e6cfeb0581f38fd6e7c010a529ef",
+      "bytes": 16767,
+      "executable": false
+    },
+    {
+      "path": "references/lint-validate-inspect.md",
+      "sha256": "2629c4af5e2255c18e7782622516e225393ffef77844bde53fa923d34aa1be13",
+      "bytes": 17877,
+      "executable": false
+    },
+    {
+      "path": "references/preview-render.md",
+      "sha256": "d534ce9911a609777ecba84074c838b33e9a302c6ee80254f0e6a0cd6b2a7ca0",
+      "bytes": 32472,
+      "executable": false
+    },
+    {
+      "path": "references/upgrade-info-misc.md",
+      "sha256": "a46662ad866669d1cf70bfa6404e9a01f68d2db4eb667fe6dc8a8442f6a069d8",
+      "bytes": 11709,
+      "executable": false
+    }
+  ],
+  "totalBytes": 121046,
+  "requires": [],
+  "permissionsNote": "allowed-tools declarations inside SKILL.md are upstream claims, not host approvals; OpenAR enforces its own permission gates. The skill's render and registry commands run in the user's project, not as part of this catalog."
+}
