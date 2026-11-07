@@ -99,6 +99,30 @@
       "repo": "HuieL/OpenAR-skill-hub"
     },
     {
+      "id": "hub.caveman",
+      "name": "Caveman",
+      "summary": "The caveman voice for agent replies: answer first, kill greeting, hedging, filler, recap and closers, drop articles when the sentence still reads in one pass; code, commands, paths, numbers and exact error strings stay verbatim. Clarity beats compression: negations, step order and anything persisted outside chat never compress; warnings, irreversible actions, questions and confused users get plain prose. Use for /caveman, \"caveman mode\", \"less tokens\"; not for onboarding or replies other humans will read. Persists until \"stop caveman\" or \"normal mode\". /caveman status and the ultra/wenyan aliases follow the optional hub.ultracave/hub.megacave siblings (base voice standalone); hook mode tracking needs the upstream product. Upstream reports honestly: ~3% median output in a single-run snapshot vs an \"Answer concisely.\" control, inside the noise, no quality claim. Verbatim from JuliusBrussee/caveman skills/caveman at the pinned commit (SKILL.md + README only). Apache-2.0.",
+      "delivery": "hub",
+      "version": "4.1.0",
+      "revision": "c310c9d300df13a1dd9f5c086120ffd857a164a1",
+      "entryPath": "entries/skills/hub.caveman/entry.json",
+      "entrySha256": "ef55b8c7d4822b4b1b01d94381fc23a478b95b4421599038d823272460458428",
+      "icon": "writing",
+      "tags": [
+        "concise",
+        "tokens",
+        "style",
+        "writing",
+        "productivity"
+      ],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "author": "Julius Brussee",
+      "repo": "JuliusBrussee/caveman"
+    },
+    {
       "id": "hub.craft-suite",
       "name": "Craft Suite",
       "summary": "Work with OpenAR Craft Suite: edit a project asset with an installed component (photo, vector, deck, light, sound), request an agent proposal, and return the editable source and previews to the same project. It covers keeping original, source and preview revisions apart, resuming an interrupted save without repeating it, and reporting only what was observed. The skill grants nothing: human-only Craft actions stay human-only. Original OpenAR content, needs Craft Suite installed.",
@@ -234,6 +258,30 @@
       "repo": "tw93/kami"
     },
     {
+      "id": "hub.megacave",
+      "name": "Megacave",
+      "summary": "Caveman in Classical Chinese (文言文): subjects omitted where recoverable, verbs first, classical particles (之、乃、為、其、則、故、以) instead of connective phrases — far fewer characters on screen. Same never-touch floor as hub.caveman: code, commands, paths, API names and error strings stay in their original script verbatim; negations (不、非、勿、未、毋) and Arabic numerals never drop; ambiguous clauses fall back to 白話; warnings, irreversible actions, questions and confused users get plain prose. Upstream sets disable-model-invocation: only explicit /megacave or /caveman wenyan runs it; persists until \"stop caveman\" or \"normal mode\". Upstream reports honestly: shorter on screen, small noisy token savings (9% median fewer, single-run snapshot, 12% more to 39% fewer); no quality claim. For readers of Classical Chinese wanting terse replies; not a translation tool. Verbatim from JuliusBrussee/caveman skills/megacave at the pinned commit (SKILL.md + README only). Apache-2.0.",
+      "delivery": "hub",
+      "version": "4.1.0",
+      "revision": "c310c9d300df13a1dd9f5c086120ffd857a164a1",
+      "entryPath": "entries/skills/hub.megacave/entry.json",
+      "entrySha256": "c89dafeb16ce8dde6035d1890387ff6a5496aa8b3ca7c99cd88794ec79e9e8bc",
+      "icon": "writing",
+      "tags": [
+        "concise",
+        "tokens",
+        "wenyan",
+        "writing",
+        "productivity"
+      ],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "author": "Julius Brussee",
+      "repo": "JuliusBrussee/caveman"
+    },
+    {
       "id": "hub.officecli-academic-paper",
       "name": "OfficeCLI Academic Paper",
       "summary": "Academic-style .docx output: journal/conference/thesis chapters with APA, Chicago, IEEE or MLA citation style, numbered equations, cross-references, footnotes and bibliography. OpenAR-adapted carry of the iOfficeAI/AionCore skill, published in lockstep with the compiled curated body at the same version (same version, same bytes): the upstream install commands and the manual-releases fallback are replaced with the pinned, checksum-verified host install path (an ora cli-adapter changeset the user approves and stages), the verify sentence points at list-adapters/run-cli-adapter, and an Apache-2.0 4(b) provenance notice is appended; everything else is upstream text.",
@@ -299,6 +347,30 @@
       ],
       "author": "VoltAgent",
       "repo": "HuieL/OpenAR-skill-hub"
+    },
+    {
+      "id": "hub.ultracave",
+      "name": "Ultracave",
+      "summary": "Caveman at maximum compression: grammar stripped — fragments, one word when one word is enough, each fact once, connectives cut only when order survives. Same never-touch floor as hub.caveman: code, commands, paths, error strings, numbers, negations and the user's language stay verbatim; warnings, irreversible actions, steps a fragment could scramble, questions and confused users get plain prose. Upstream sets disable-model-invocation: only an explicit /ultracave or /caveman ultra runs it; mode persists until \"stop caveman\" or \"normal mode\". Upstream single-run snapshot: 35% fewer output tokens at the median vs an \"Answer concisely.\" control — length only, not correctness, model-dependent. For payload-only fast reading; skip for onboarding, security review or anything other humans read. Verbatim from JuliusBrussee/caveman skills/ultracave at the pinned commit (SKILL.md + README; the CLI/engine runtime is not part of the entry). Apache-2.0.",
+      "delivery": "hub",
+      "version": "4.1.0",
+      "revision": "c310c9d300df13a1dd9f5c086120ffd857a164a1",
+      "entryPath": "entries/skills/hub.ultracave/entry.json",
+      "entrySha256": "c835e9deaefe6f8c2969f82f34b54d06fe64567e89c067b2b98fa9ef15492bd8",
+      "icon": "writing",
+      "tags": [
+        "concise",
+        "tokens",
+        "terse",
+        "writing",
+        "productivity"
+      ],
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "author": "Julius Brussee",
+      "repo": "JuliusBrussee/caveman"
     },
     {
       "id": "hub.web-design-guidelines",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "skillHub": "61e38907680e2bea3c51014321b8622551b6fd65",
+  "skillHub": "3d1df6bd91a8a7c7029ceff1c9323448ac8c249e",
   "extensionHub": null,
   "creators": [
     {
@@ -75,6 +75,12 @@
           ]
         },
         {
+          "entry": "skill:hub.caveman",
+          "roles": [
+            "submitter"
+          ]
+        },
+        {
           "entry": "skill:hub.craft-suite",
           "roles": [
             "author",
@@ -114,6 +120,12 @@
           ]
         },
         {
+          "entry": "skill:hub.megacave",
+          "roles": [
+            "submitter"
+          ]
+        },
+        {
           "entry": "skill:hub.officecli-academic-paper",
           "roles": [
             "adapter",
@@ -131,6 +143,12 @@
           "entry": "skill:hub.research-design-system",
           "roles": [
             "adapter",
+            "submitter"
+          ]
+        },
+        {
+          "entry": "skill:hub.ultracave",
+          "roles": [
             "submitter"
           ]
         },
@@ -1430,6 +1448,33 @@
           "entry": "skill:ythx-101.live-panel",
           "roles": [
             "submitter"
+          ]
+        }
+      ]
+    },
+    {
+      "github": "JuliusBrussee",
+      "name": "Julius Brussee",
+      "credits": [
+        {
+          "entry": "skill:hub.caveman",
+          "roles": [
+            "author",
+            "maintainer"
+          ]
+        },
+        {
+          "entry": "skill:hub.megacave",
+          "roles": [
+            "author",
+            "maintainer"
+          ]
+        },
+        {
+          "entry": "skill:hub.ultracave",
+          "roles": [
+            "author",
+            "maintainer"
           ]
         }
       ]

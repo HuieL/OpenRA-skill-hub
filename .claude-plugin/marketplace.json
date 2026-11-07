@@ -55,6 +55,21 @@
       ]
     },
     {
+      "name": "caveman",
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman",
+        "sha": "c310c9d300df13a1dd9f5c086120ffd857a164a1"
+      },
+      "description": "3 skills from JuliusBrussee/caveman, pinned at c310c9d300df as listed on the OpenAR Skill Hub.",
+      "strict": false,
+      "skills": [
+        "./skills/caveman",
+        "./skills/megacave",
+        "./skills/ultracave"
+      ]
+    },
+    {
       "name": "scientific-agent-skills",
       "source": {
         "source": "github",

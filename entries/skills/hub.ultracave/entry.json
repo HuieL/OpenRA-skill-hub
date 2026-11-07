@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "hub.ultracave",
+  "kind": "skill",
+  "name": "Ultracave",
+  "summary": "Caveman at maximum compression: grammar stripped — fragments, one word when one word is enough, each fact once, connectives cut only when order survives. Same never-touch floor as hub.caveman: code, commands, paths, error strings, numbers, negations and the user's language stay verbatim; warnings, irreversible actions, steps a fragment could scramble, questions and confused users get plain prose. Upstream sets disable-model-invocation: only an explicit /ultracave or /caveman ultra runs it; mode persists until \"stop caveman\" or \"normal mode\". Upstream single-run snapshot: 35% fewer output tokens at the median vs an \"Answer concisely.\" control — length only, not correctness, model-dependent. For payload-only fast reading; skip for onboarding, security review or anything other humans read. Verbatim from JuliusBrussee/caveman skills/ultracave at the pinned commit (SKILL.md + README; the CLI/engine runtime is not part of the entry). Apache-2.0.",
+  "summaryI18n": {
+    "zh-CN": "最大压缩档的 caveman：剥离语法——短语断句、一词足矣则一词、每个事实只说一次、仅在顺序不损时省略连接词。与 hub.caveman 语音同样的不可触碰底线：代码、命令、路径、错误串、数字、否定词与用户语言逐字保留；安全警告、不可逆操作、断句可能打乱的步骤序列、向用户提问或用户困惑时回到完整散文。上游声明 disable-model-invocation，仅在显式 /ultracave 或 /caveman ultra 时使用；模式持续到 \"stop caveman\" 或 \"normal mode\"，status 探测遵循基础条目的约定。上游单次输出长度快照报告中位数较 \"Answer concisely.\" 对照省 35% token——仅长度，不代表正确性，随模型与负载浮动。适合只读载荷的快速阅读；不适合 onboarding、安全审查或面向其他读者的内容。自 JuliusBrussee/caveman skills/ultracave 钉住 commit 逐字携带（SKILL.md 与 README，不含仓库 CLI/engine 运行时）。许可证 Apache-2.0。"
+  },
+  "authors": [
+    {
+      "name": "Julius Brussee",
+      "github": "JuliusBrussee"
+    }
+  ],
+  "maintainers": [
+    "JuliusBrussee"
+  ],
+  "registrySubmitter": "HuieL",
+  "categories": [
+    "writing",
+    "productivity"
+  ],
+  "source": {
+    "repo": "JuliusBrussee/caveman",
+    "path": "skills/ultracave",
+    "revision": "c310c9d300df13a1dd9f5c086120ffd857a164a1"
+  },
+  "version": "4.1.0",
+  "license": "Apache-2.0",
+  "licenseFile": "LICENSE",
+  "review": {
+    "status": "unreviewed",
+    "reviewedRevision": null,
+    "reviewer": null
+  },
+  "compat": {},
+  "delivery": "hub",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "3f4138ddc07c08bb41946f96a41e4cee8800d979ed458d0eec35959686ea781a",
+      "bytes": 885,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "a8da5b0b3501b853e1b98f2ae09fe8dc9c0edf481b1d3fa9529f8557011c1ef8",
+      "bytes": 2513,
+      "executable": false
+    }
+  ],
+  "totalBytes": 3398,
+  "requires": [],
+  "permissionsNote": "The upstream SKILL.md declares no allowed-tools; any tool use is the host's decision. The entry carries pure conversational style guidance: no scripts, no network, no credential paths (both carried files read in full at listing time). Upstream sets disable-model-invocation, so the skill never auto-loads; the host only runs it on an explicit user command. Apache-2.0: the LICENSE carried at the entry root is the upstream repository's canonical text."
+}

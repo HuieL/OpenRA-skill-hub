@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "hub.megacave",
+  "kind": "skill",
+  "name": "Megacave",
+  "summary": "Caveman in Classical Chinese (文言文): subjects omitted where recoverable, verbs first, classical particles (之、乃、為、其、則、故、以) instead of connective phrases — far fewer characters on screen. Same never-touch floor as hub.caveman: code, commands, paths, API names and error strings stay in their original script verbatim; negations (不、非、勿、未、毋) and Arabic numerals never drop; ambiguous clauses fall back to 白話; warnings, irreversible actions, questions and confused users get plain prose. Upstream sets disable-model-invocation: only explicit /megacave or /caveman wenyan runs it; persists until \"stop caveman\" or \"normal mode\". Upstream reports honestly: shorter on screen, small noisy token savings (9% median fewer, single-run snapshot, 12% more to 39% fewer); no quality claim. For readers of Classical Chinese wanting terse replies; not a translation tool. Verbatim from JuliusBrussee/caveman skills/megacave at the pinned commit (SKILL.md + README only). Apache-2.0.",
+  "summaryI18n": {
+    "zh-CN": "文言文版的 caveman：主语可推断则省略，动前宾后，以之、乃、為、其、则、故、以等实词代替连接短语——屏幕字符大幅减少。与 hub.caveman 语音同样的不可触碰底线：代码、命令、路径、API 名与错误串以原文字符逐字保留；否定词（不、非、勿、未、毋）与阿拉伯数字绝不省略；有两种读法的子句回落白話，安全警告、不可逆操作、向用户提问或用户困惑时回到完整散文或用户语言。上游声明 disable-model-invocation，仅在显式 /megacave 或 /caveman wenyan 时使用；模式持续到 \"stop caveman\" 或 \"normal mode\"。上游如实报告：屏幕更短，token 节省小且有噪声——单次快照中位数约省 9%，区间从多 12% 到少 39%，无质量等价声明。适合能读文言文且希望简短回复的人；不是翻译工具，也不适用于面向其他读者的散文。自 JuliusBrussee/caveman skills/megacave 钉住 commit 逐字携带（SKILL.md 与 README，不含仓库 CLI/engine 运行时）。许可证 Apache-2.0。"
+  },
+  "authors": [
+    {
+      "name": "Julius Brussee",
+      "github": "JuliusBrussee"
+    }
+  ],
+  "maintainers": [
+    "JuliusBrussee"
+  ],
+  "registrySubmitter": "HuieL",
+  "categories": [
+    "writing",
+    "productivity"
+  ],
+  "source": {
+    "repo": "JuliusBrussee/caveman",
+    "path": "skills/megacave",
+    "revision": "c310c9d300df13a1dd9f5c086120ffd857a164a1"
+  },
+  "version": "4.1.0",
+  "license": "Apache-2.0",
+  "licenseFile": "LICENSE",
+  "review": {
+    "status": "unreviewed",
+    "reviewedRevision": null,
+    "reviewer": null
+  },
+  "compat": {},
+  "delivery": "hub",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "abeda79940cf9368492e3376744b92e88d38700432b6b06da9125d98e6c25977",
+      "bytes": 809,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "139105296c0686c1ee24610caca1db293ab84162beb0d94aa7a9ad7cbc3352bf",
+      "bytes": 2858,
+      "executable": false
+    }
+  ],
+  "totalBytes": 3667,
+  "requires": [],
+  "permissionsNote": "The upstream SKILL.md declares no allowed-tools; any tool use is the host's decision. The entry carries pure conversational style guidance: no scripts, no network, no credential paths (both carried files read in full at listing time). Upstream sets disable-model-invocation, so the skill never auto-loads; the host only runs it on an explicit user command. Apache-2.0: the LICENSE carried at the entry root is the upstream repository's canonical text."
+}

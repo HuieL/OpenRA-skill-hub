@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "hub.caveman",
+  "kind": "skill",
+  "name": "Caveman",
+  "summary": "The caveman voice for agent replies: answer first, kill greeting, hedging, filler, recap and closers, drop articles when the sentence still reads in one pass; code, commands, paths, numbers and exact error strings stay verbatim. Clarity beats compression: negations, step order and anything persisted outside chat never compress; warnings, irreversible actions, questions and confused users get plain prose. Use for /caveman, \"caveman mode\", \"less tokens\"; not for onboarding or replies other humans will read. Persists until \"stop caveman\" or \"normal mode\". /caveman status and the ultra/wenyan aliases follow the optional hub.ultracave/hub.megacave siblings (base voice standalone); hook mode tracking needs the upstream product. Upstream reports honestly: ~3% median output in a single-run snapshot vs an \"Answer concisely.\" control, inside the noise, no quality claim. Verbatim from JuliusBrussee/caveman skills/caveman at the pinned commit (SKILL.md + README only). Apache-2.0.",
+  "summaryI18n": {
+    "zh-CN": "caveman 语音：回复先给答案，去掉问候、铺垫、填充、复述与收尾，一遍可读时省略冠词；代码、命令、路径、数字与精确错误串逐字保留。清晰优先于压缩：否定词、步骤顺序、以及任何写入聊天下文的内容绝不压缩；安全警告、不可逆操作确认、向用户提问或用户困惑时自动回到完整散文。适合 /caveman、\"caveman mode\"、\"less tokens\"、终端阅读；不适用于 onboarding、面向其他读者的文档。模式持续到 \"stop caveman\" 或 \"normal mode\"。/caveman status 探测与 /caveman ultra、/caveman wenyan 别名遵循同源条目 hub.ultracave 与 hub.megacave（可选，基础语音可独立使用）；基于 hook 的模式追踪需要宿主侧 Caveman 产品，本条目不作要求。上游如实报告 token 数字：单次输出长度快照中 caveman 中位数较 \"Answer concisely.\" 对照约省 3%，在噪声范围内，无质量等价声明。自 JuliusBrussee/caveman skills/caveman 钉住 commit 逐字携带（SKILL.md 与 README，不含仓库 CLI/engine 运行时）。许可证 Apache-2.0。"
+  },
+  "authors": [
+    {
+      "name": "Julius Brussee",
+      "github": "JuliusBrussee"
+    }
+  ],
+  "maintainers": [
+    "JuliusBrussee"
+  ],
+  "registrySubmitter": "HuieL",
+  "categories": [
+    "writing",
+    "productivity"
+  ],
+  "source": {
+    "repo": "JuliusBrussee/caveman",
+    "path": "skills/caveman",
+    "revision": "c310c9d300df13a1dd9f5c086120ffd857a164a1"
+  },
+  "version": "4.1.0",
+  "license": "Apache-2.0",
+  "licenseFile": "LICENSE",
+  "review": {
+    "status": "unreviewed",
+    "reviewedRevision": null,
+    "reviewer": null
+  },
+  "compat": {},
+  "delivery": "hub",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "e8b22f37ccb204bd00cdf98c723c0df37aeda1f5863e9ad1d634f5c839d99e5d",
+      "bytes": 3030,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "415d43518f2b1a9498c15a445d4657117b129ee5e81b19454ce348439cc6672b",
+      "bytes": 4678,
+      "executable": false
+    }
+  ],
+  "totalBytes": 7708,
+  "requires": [],
+  "permissionsNote": "The upstream SKILL.md declares no allowed-tools; any tool use is the host's decision. The entry carries pure conversational style guidance: no scripts, no network, no credential paths (both carried files read in full at listing time). Hook-based mode tracking and the CLI/engine runtime live in the upstream product and are not part of this entry; only the user can install them. Apache-2.0: the LICENSE carried at the entry root is the upstream repository's canonical text."
+}
