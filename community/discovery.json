@@ -1,8 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T13:49:10Z",
-  "skillHub": "ca85dbd74425b6139aa20308a407e9f7f0577b5f",
+  "generatedAt": "2026-11-07T05:05:41Z",
+  "skillHub": "a3b4839a35ddf315d7ea3ad420aa859ac3f7bdaa",
   "new": [
+    {
+      "id": "skill:hub.caveman",
+      "firstRecorded": "2026-11-07T13:04:38+08:00"
+    },
+    {
+      "id": "skill:hub.megacave",
+      "firstRecorded": "2026-11-07T13:04:38+08:00"
+    },
+    {
+      "id": "skill:hub.ultracave",
+      "firstRecorded": "2026-11-07T13:04:38+08:00"
+    },
+    {
+      "id": "skill:hub.kami",
+      "firstRecorded": "2026-10-26T21:54:46+08:00"
+    },
     {
       "id": "skill:hub.anatomy",
       "firstRecorded": "2026-10-26T18:51:09+08:00"
@@ -917,6 +933,22 @@
     }
   ],
   "updated": [
+    {
+      "id": "skill:hub.caveman",
+      "lastRecorded": "2026-11-07T13:04:38+08:00"
+    },
+    {
+      "id": "skill:hub.megacave",
+      "lastRecorded": "2026-11-07T13:04:38+08:00"
+    },
+    {
+      "id": "skill:hub.ultracave",
+      "lastRecorded": "2026-11-07T13:04:38+08:00"
+    },
+    {
+      "id": "skill:hub.kami",
+      "lastRecorded": "2026-10-26T21:54:46+08:00"
+    },
     {
       "id": "skill:hub.anatomy",
       "lastRecorded": "2026-10-26T18:51:09+08:00"
@@ -1837,9 +1869,9 @@
     "repos": [
       {
         "repo": "mattpocock/skills",
-        "stars": 303746,
-        "forks": 25550,
-        "pushedAt": "2026-10-22T09:35:28Z",
+        "stars": 316882,
+        "forks": 26515,
+        "pushedAt": "2026-11-05T10:40:01Z",
         "entries": [
           "skill:mattpocock.claude-handoff",
           "skill:mattpocock.code-review",
@@ -1874,18 +1906,18 @@
       },
       {
         "repo": "anthropics/skills",
-        "stars": 183907,
-        "forks": 21761,
-        "pushedAt": "2026-10-09T18:45:52Z",
+        "stars": 188245,
+        "forks": 22198,
+        "pushedAt": "2026-11-06T22:32:32Z",
         "entries": [
           "skill:anthropics.frontend-design"
         ]
       },
       {
         "repo": "DietrichGebert/ponytail",
-        "stars": 176704,
-        "forks": 9659,
-        "pushedAt": "2026-10-18T01:55:14Z",
+        "stars": 185942,
+        "forks": 10290,
+        "pushedAt": "2026-10-29T11:59:31Z",
         "entries": [
           "skill:ponytail.ponytail",
           "skill:ponytail.ponytail-audit",
@@ -1895,45 +1927,56 @@
       },
       {
         "repo": "VoltAgent/awesome-design-md",
-        "stars": 123630,
-        "forks": 13713,
-        "pushedAt": "2026-10-14T05:46:48Z",
+        "stars": 125939,
+        "forks": 13945,
+        "pushedAt": "2026-10-28T15:45:40Z",
         "entries": [
           "skill:hub.research-design-system"
         ]
       },
       {
+        "repo": "JuliusBrussee/caveman",
+        "stars": 118043,
+        "forks": 6865,
+        "pushedAt": "2026-11-07T03:27:47Z",
+        "entries": [
+          "skill:hub.caveman",
+          "skill:hub.megacave",
+          "skill:hub.ultracave"
+        ]
+      },
+      {
         "repo": "Leonxlnx/taste-skill",
-        "stars": 102773,
-        "forks": 6946,
-        "pushedAt": "2026-10-26T12:28:18Z",
+        "stars": 111287,
+        "forks": 7477,
+        "pushedAt": "2026-11-05T01:12:12Z",
         "entries": [
           "skill:leonxlnx.taste-skill"
         ]
       },
       {
-        "repo": "tt-a1i/archify",
-        "stars": 89588,
-        "forks": 6066,
-        "pushedAt": "2026-10-26T05:59:06Z",
-        "entries": [
-          "skill:hub.archify"
-        ]
-      },
-      {
         "repo": "pbakaus/impeccable",
-        "stars": 88556,
-        "forks": 5283,
-        "pushedAt": "2026-10-26T12:46:18Z",
+        "stars": 104927,
+        "forks": 6233,
+        "pushedAt": "2026-11-07T03:10:10Z",
         "entries": [
           "skill:hub.impeccable"
         ]
       },
       {
+        "repo": "tt-a1i/archify",
+        "stars": 94247,
+        "forks": 6419,
+        "pushedAt": "2026-11-07T00:34:42Z",
+        "entries": [
+          "skill:hub.archify"
+        ]
+      },
+      {
         "repo": "K-Dense-AI/scientific-agent-skills",
-        "stars": 54717,
-        "forks": 4820,
-        "pushedAt": "2026-10-26T09:36:15Z",
+        "stars": 56339,
+        "forks": 4957,
+        "pushedAt": "2026-11-02T09:23:27Z",
         "entries": [
           "skill:kdense.13c-metabolic-flux",
           "skill:kdense.adaptyv",
@@ -2092,9 +2135,9 @@
       },
       {
         "repo": "Yuan1z0825/nature-skills",
-        "stars": 50751,
-        "forks": 2634,
-        "pushedAt": "2026-10-25T04:28:47Z",
+        "stars": 52569,
+        "forks": 2741,
+        "pushedAt": "2026-11-07T02:22:42Z",
         "entries": [
           "skill:nature.academic-search",
           "skill:nature.citation",
@@ -2117,17 +2160,17 @@
       },
       {
         "repo": "nutlope/hallmark",
-        "stars": 35294,
-        "forks": 1839,
-        "pushedAt": "2026-10-22T17:20:32Z",
+        "stars": 49726,
+        "forks": 2634,
+        "pushedAt": "2026-11-05T13:16:31Z",
         "entries": [
           "skill:hub.hallmark"
         ]
       },
       {
         "repo": "wheresryan22/anatomy",
-        "stars": 20908,
-        "forks": 1673,
+        "stars": 25586,
+        "forks": 2141,
         "pushedAt": "2026-10-18T20:20:24Z",
         "entries": [
           "skill:hub.anatomy"
@@ -2135,17 +2178,17 @@
       },
       {
         "repo": "tw93/kami",
-        "stars": 12091,
-        "forks": 566,
-        "pushedAt": "2026-10-26T13:12:35Z",
+        "stars": 12310,
+        "forks": 581,
+        "pushedAt": "2026-11-05T11:55:13Z",
         "entries": [
           "skill:hub.kami"
         ]
       },
       {
         "repo": "KKKKhazix/human-writing",
-        "stars": 4229,
-        "forks": 321,
+        "stars": 4449,
+        "forks": 338,
         "pushedAt": "2026-08-11T15:07:45Z",
         "entries": [
           "skill:hub.human-writing"
@@ -2153,8 +2196,8 @@
       },
       {
         "repo": "isjiamu/gzh-design-skill",
-        "stars": 4160,
-        "forks": 471,
+        "stars": 4278,
+        "forks": 484,
         "pushedAt": "2026-10-21T03:53:41Z",
         "entries": [
           "skill:hub.gzh-design"
@@ -2162,8 +2205,8 @@
       },
       {
         "repo": "vercel-labs/web-interface-guidelines",
-        "stars": 1038,
-        "forks": 73,
+        "stars": 1126,
+        "forks": 77,
         "pushedAt": "2026-10-05T20:49:17Z",
         "entries": [
           "skill:hub.web-design-guidelines"
@@ -2171,8 +2214,8 @@
       },
       {
         "repo": "ythx-101/live-panel-skill",
-        "stars": 809,
-        "forks": 105,
+        "stars": 846,
+        "forks": 109,
         "pushedAt": "2026-10-20T15:59:20Z",
         "entries": [
           "skill:ythx-101.live-panel"
@@ -2180,8 +2223,8 @@
       },
       {
         "repo": "iOfficeAI/AionCore",
-        "stars": 123,
-        "forks": 206,
+        "stars": 127,
+        "forks": 218,
         "pushedAt": "2026-10-14T17:47:21Z",
         "entries": [
           "skill:hub.officecli-academic-paper",
@@ -2190,7 +2233,7 @@
       },
       {
         "repo": "leanprover/skills",
-        "stars": 80,
+        "stars": 82,
         "forks": 2,
         "pushedAt": "2026-02-25T05:05:13Z",
         "entries": [
@@ -2207,16 +2250,16 @@
       },
       {
         "repo": "Checklist-Design/skills",
-        "stars": 70,
+        "stars": 73,
         "forks": 8,
-        "pushedAt": "2026-09-07T12:14:25Z",
+        "pushedAt": "2026-10-30T12:38:17Z",
         "entries": [
           "skill:checklist-design.checklist-design"
         ]
       },
       {
         "repo": "vercel-labs/writing-guidelines",
-        "stars": 21,
+        "stars": 22,
         "forks": 2,
         "pushedAt": "2026-06-01T17:29:17Z",
         "entries": [
@@ -2227,7 +2270,7 @@
         "repo": "HuieL/OpenAR-skill-hub",
         "stars": 0,
         "forks": 0,
-        "pushedAt": "2026-10-26T11:08:49Z",
+        "pushedAt": "2026-11-03T14:45:46Z",
         "entries": [
           "skill:hub.archify",
           "skill:hub.craft-suite",
